@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Acwing redirect
+// @name        leetcode2acwing
 // @namespace   Violentmonkey Scripts
 // @description Redirect LeetCode problem site to Acwing solution site.
 // @match       https://leetcode.com/problems/*
