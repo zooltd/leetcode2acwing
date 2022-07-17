@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                leetcode2acwing
 // @name:zh-CN          leetcode2acwing
-// @namespace           zooltd
+// @namespace           Violentmonkey Scripts
 // @description         Redirect LeetCode problem site to Acwing solution site.
 // @description:zh-CN   从LeetCode问题页面跳转至AcWing题解页面。
 // @match               https://leetcode.com/problems/*
