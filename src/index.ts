@@ -2,7 +2,7 @@ import { title2URL } from './redirectUrl';
 import 'dotenv/config';
 
 const observer = new MutationObserver(resetTimer);
-let timer = setTimeout(action, 500, observer);
+let timer = setTimeout(action, 2000, observer);
 observer.observe(document, { childList: true, subtree: true });
 
 // reset timer every time something changes
