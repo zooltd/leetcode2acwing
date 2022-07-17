@@ -33,7 +33,8 @@ const waitForRender = (...selectors: string[]) =>
       : ((<HTMLDivElement>(
           newTab?.firstChild?.firstChild?.firstChild?.firstChild
         ))!.innerText = 'AcWing');
-    const url = title2URL.get(window.location.pathname);
+    const titleSlug = window.location.pathname.split('/')[2];
+    const url = title2URL.get(titleSlug);
     if (url) {
       (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute('href', url);
       (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute('target', '_blank');

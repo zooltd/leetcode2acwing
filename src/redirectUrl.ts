@@ -1,3934 +1,3877 @@
 export const title2URL = new Map<string, string>([
+  ['two-sum', 'https://www.acwing.com/activity/content/problem/content/2326/'],
   [
-    '/problems/two-sum/',
-    'https://www.acwing.com/activity/content/problem/content/2326/',
-  ],
-  [
-    '/problems/add-two-numbers/',
+    'add-two-numbers',
     'https://www.acwing.com/activity/content/problem/content/2327/',
   ],
   [
-    '/problems/longest-substring-without-repeating-characters/',
+    'longest-substring-without-repeating-characters',
     'https://www.acwing.com/activity/content/problem/content/2328/',
   ],
   [
-    '/problems/median-of-two-sorted-arrays/',
+    'median-of-two-sorted-arrays',
     'https://www.acwing.com/activity/content/problem/content/2329/',
   ],
   [
-    '/problems/longest-palindromic-substring/',
+    'longest-palindromic-substring',
     'https://www.acwing.com/activity/content/problem/content/2330/',
   ],
   [
-    '/problems/zigzag-conversion/',
+    'zigzag-conversion',
     'https://www.acwing.com/activity/content/problem/content/2331/',
   ],
   [
-    '/problems/reverse-integer/',
+    'reverse-integer',
     'https://www.acwing.com/activity/content/problem/content/2332/',
   ],
   [
-    '/problems/string-to-integer-atoi/',
+    'string-to-integer-atoi',
     'https://www.acwing.com/activity/content/problem/content/2333/',
   ],
   [
-    '/problems/palindrome-number/',
+    'palindrome-number',
     'https://www.acwing.com/activity/content/problem/content/2334/',
   ],
   [
-    '/problems/regular-expression-matching/',
+    'regular-expression-matching',
     'https://www.acwing.com/activity/content/problem/content/2335/',
   ],
   [
-    '/problems/container-with-most-water/',
+    'container-with-most-water',
     'https://www.acwing.com/activity/content/problem/content/2344/',
   ],
   [
-    '/problems/integer-to-roman/',
+    'integer-to-roman',
     'https://www.acwing.com/activity/content/problem/content/2345/',
   ],
   [
-    '/problems/roman-to-integer/',
+    'roman-to-integer',
     'https://www.acwing.com/activity/content/problem/content/2346/',
   ],
   [
-    '/problems/longest-common-prefix/',
+    'longest-common-prefix',
     'https://www.acwing.com/activity/content/problem/content/2347/',
   ],
+  ['3sum', 'https://www.acwing.com/activity/content/problem/content/2348/'],
   [
-    '/problems/3sum/',
-    'https://www.acwing.com/activity/content/problem/content/2348/',
-  ],
-  [
-    '/problems/3sum-closest/',
+    '3sum-closest',
     'https://www.acwing.com/activity/content/problem/content/2349/',
   ],
   [
-    '/problems/letter-combinations-of-a-phone-number/',
+    'letter-combinations-of-a-phone-number',
     'https://www.acwing.com/activity/content/problem/content/2350/',
   ],
+  ['4sum', 'https://www.acwing.com/activity/content/problem/content/2351/'],
   [
-    '/problems/4sum/',
-    'https://www.acwing.com/activity/content/problem/content/2351/',
-  ],
-  [
-    '/problems/remove-nth-node-from-end-of-list/',
+    'remove-nth-node-from-end-of-list',
     'https://www.acwing.com/activity/content/problem/content/2352/',
   ],
   [
-    '/problems/valid-parentheses/',
+    'valid-parentheses',
     'https://www.acwing.com/activity/content/problem/content/2353/',
   ],
   [
-    '/problems/merge-two-sorted-lists/',
+    'merge-two-sorted-lists',
     'https://www.acwing.com/activity/content/problem/content/2354/',
   ],
   [
-    '/problems/generate-parentheses/',
+    'generate-parentheses',
     'https://www.acwing.com/activity/content/problem/content/2355/',
   ],
   [
-    '/problems/merge-k-sorted-lists/',
+    'merge-k-sorted-lists',
     'https://www.acwing.com/activity/content/problem/content/2356/',
   ],
   [
-    '/problems/swap-nodes-in-pairs/',
+    'swap-nodes-in-pairs',
     'https://www.acwing.com/activity/content/problem/content/2357/',
   ],
   [
-    '/problems/reverse-nodes-in-k-group/',
+    'reverse-nodes-in-k-group',
     'https://www.acwing.com/activity/content/problem/content/2358/',
   ],
   [
-    '/problems/remove-duplicates-from-sorted-array/',
+    'remove-duplicates-from-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/2359/',
   ],
   [
-    '/problems/remove-element/',
+    'remove-element',
     'https://www.acwing.com/activity/content/problem/content/2360/',
   ],
   [
-    '/problems/implement-strstr/',
+    'implement-strstr',
     'https://www.acwing.com/activity/content/problem/content/2361/',
   ],
   [
-    '/problems/divide-two-integers/',
+    'divide-two-integers',
     'https://www.acwing.com/activity/content/problem/content/2362/',
   ],
   [
-    '/problems/substring-with-concatenation-of-all-words/',
+    'substring-with-concatenation-of-all-words',
     'https://www.acwing.com/activity/content/problem/content/2363/',
   ],
   [
-    '/problems/next-permutation/',
+    'next-permutation',
     'https://www.acwing.com/activity/content/problem/content/2368/',
   ],
   [
-    '/problems/longest-valid-parentheses/',
+    'longest-valid-parentheses',
     'https://www.acwing.com/activity/content/problem/content/2369/',
   ],
   [
-    '/problems/search-in-rotated-sorted-array/',
+    'search-in-rotated-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/2370/',
   ],
   [
-    '/problems/find-first-and-last-position-of-element-in-sorted-array/',
+    'find-first-and-last-position-of-element-in-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/2371/',
   ],
   [
-    '/problems/search-insert-position/',
+    'search-insert-position',
     'https://www.acwing.com/activity/content/problem/content/2372/',
   ],
   [
-    '/problems/valid-sudoku/',
+    'valid-sudoku',
     'https://www.acwing.com/activity/content/problem/content/2373/',
   ],
   [
-    '/problems/sudoku-solver/',
+    'sudoku-solver',
     'https://www.acwing.com/activity/content/problem/content/2374/',
   ],
   [
-    '/problems/count-and-say/',
+    'count-and-say',
     'https://www.acwing.com/activity/content/problem/content/2375/',
   ],
   [
-    '/problems/combination-sum/',
+    'combination-sum',
     'https://www.acwing.com/activity/content/problem/content/2376/',
   ],
   [
-    '/problems/combination-sum-ii/',
+    'combination-sum-ii',
     'https://www.acwing.com/activity/content/problem/content/2377/',
   ],
   [
-    '/problems/first-missing-positive/',
+    'first-missing-positive',
     'https://www.acwing.com/activity/content/problem/content/2378/',
   ],
   [
-    '/problems/trapping-rain-water/',
+    'trapping-rain-water',
     'https://www.acwing.com/activity/content/problem/content/2379/',
   ],
   [
-    '/problems/multiply-strings/',
+    'multiply-strings',
     'https://www.acwing.com/activity/content/problem/content/2380/',
   ],
   [
-    '/problems/wildcard-matching/',
+    'wildcard-matching',
     'https://www.acwing.com/activity/content/problem/content/2381/',
   ],
   [
-    '/problems/jump-game-ii/',
+    'jump-game-ii',
     'https://www.acwing.com/activity/content/problem/content/2382/',
   ],
   [
-    '/problems/permutations/',
+    'permutations',
     'https://www.acwing.com/activity/content/problem/content/2383/',
   ],
   [
-    '/problems/permutations-ii/',
+    'permutations-ii',
     'https://www.acwing.com/activity/content/problem/content/2384/',
   ],
   [
-    '/problems/rotate-image/',
+    'rotate-image',
     'https://www.acwing.com/activity/content/problem/content/2385/',
   ],
   [
-    '/problems/group-anagrams/',
+    'group-anagrams',
     'https://www.acwing.com/activity/content/problem/content/2386/',
   ],
+  ['powx-n', 'https://www.acwing.com/activity/content/problem/content/2387/'],
+  ['n-queens', 'https://www.acwing.com/activity/content/problem/content/2396/'],
   [
-    '/problems/powx-n/',
-    'https://www.acwing.com/activity/content/problem/content/2387/',
-  ],
-  [
-    '/problems/n-queens/',
-    'https://www.acwing.com/activity/content/problem/content/2396/',
-  ],
-  [
-    '/problems/n-queens-ii/',
+    'n-queens-ii',
     'https://www.acwing.com/activity/content/problem/content/2397/',
   ],
   [
-    '/problems/maximum-subarray/',
+    'maximum-subarray',
     'https://www.acwing.com/activity/content/problem/content/2398/',
   ],
   [
-    '/problems/spiral-matrix/',
+    'spiral-matrix',
     'https://www.acwing.com/activity/content/problem/content/2399/',
   ],
   [
-    '/problems/jump-game/',
+    'jump-game',
     'https://www.acwing.com/activity/content/problem/content/2400/',
   ],
   [
-    '/problems/merge-intervals/',
+    'merge-intervals',
     'https://www.acwing.com/activity/content/problem/content/2401/',
   ],
   [
-    '/problems/insert-interval/',
+    'insert-interval',
     'https://www.acwing.com/activity/content/problem/content/2402/',
   ],
   [
-    '/problems/length-of-last-word/',
+    'length-of-last-word',
     'https://www.acwing.com/activity/content/problem/content/2403/',
   ],
   [
-    '/problems/spiral-matrix-ii/',
+    'spiral-matrix-ii',
     'https://www.acwing.com/activity/content/problem/content/2404/',
   ],
   [
-    '/problems/permutation-sequence/',
+    'permutation-sequence',
     'https://www.acwing.com/activity/content/problem/content/2405/',
   ],
   [
-    '/problems/rotate-list/',
+    'rotate-list',
     'https://www.acwing.com/activity/content/problem/content/2406/',
   ],
   [
-    '/problems/unique-paths/',
+    'unique-paths',
     'https://www.acwing.com/activity/content/problem/content/2407/',
   ],
   [
-    '/problems/unique-paths-ii/',
+    'unique-paths-ii',
     'https://www.acwing.com/activity/content/problem/content/2408/',
   ],
   [
-    '/problems/minimum-path-sum/',
+    'minimum-path-sum',
     'https://www.acwing.com/activity/content/problem/content/2409/',
   ],
   [
-    '/problems/valid-number/',
+    'valid-number',
     'https://www.acwing.com/activity/content/problem/content/2410/',
   ],
+  ['plus-one', 'https://www.acwing.com/activity/content/problem/content/2411/'],
   [
-    '/problems/plus-one/',
-    'https://www.acwing.com/activity/content/problem/content/2411/',
-  ],
-  [
-    '/problems/add-binary/',
+    'add-binary',
     'https://www.acwing.com/activity/content/problem/content/2412/',
   ],
   [
-    '/problems/text-justification/',
+    'text-justification',
     'https://www.acwing.com/activity/content/problem/content/2413/',
   ],
+  ['sqrtx', 'https://www.acwing.com/activity/content/problem/content/2414/'],
   [
-    '/problems/sqrtx/',
-    'https://www.acwing.com/activity/content/problem/content/2414/',
-  ],
-  [
-    '/problems/climbing-stairs/',
+    'climbing-stairs',
     'https://www.acwing.com/activity/content/problem/content/2415/',
   ],
   [
-    '/problems/simplify-path/',
+    'simplify-path',
     'https://www.acwing.com/activity/content/problem/content/2420/',
   ],
   [
-    '/problems/edit-distance/',
+    'edit-distance',
     'https://www.acwing.com/activity/content/problem/content/2421/',
   ],
   [
-    '/problems/set-matrix-zeroes/',
+    'set-matrix-zeroes',
     'https://www.acwing.com/activity/content/problem/content/2422/',
   ],
   [
-    '/problems/search-a-2d-matrix/',
+    'search-a-2d-matrix',
     'https://www.acwing.com/activity/content/problem/content/2423/',
   ],
   [
-    '/problems/sort-colors/',
+    'sort-colors',
     'https://www.acwing.com/activity/content/problem/content/2424/',
   ],
   [
-    '/problems/minimum-window-substring/',
+    'minimum-window-substring',
     'https://www.acwing.com/activity/content/problem/content/2425/',
   ],
   [
-    '/problems/combinations/',
+    'combinations',
     'https://www.acwing.com/activity/content/problem/content/2426/',
   ],
+  ['subsets', 'https://www.acwing.com/activity/content/problem/content/2427/'],
   [
-    '/problems/subsets/',
-    'https://www.acwing.com/activity/content/problem/content/2427/',
-  ],
-  [
-    '/problems/word-search/',
+    'word-search',
     'https://www.acwing.com/activity/content/problem/content/2428/',
   ],
   [
-    '/problems/remove-duplicates-from-sorted-array-ii/',
+    'remove-duplicates-from-sorted-array-ii',
     'https://www.acwing.com/activity/content/problem/content/2429/',
   ],
   [
-    '/problems/search-in-rotated-sorted-array-ii/',
+    'search-in-rotated-sorted-array-ii',
     'https://www.acwing.com/activity/content/problem/content/2430/',
   ],
   [
-    '/problems/remove-duplicates-from-sorted-list-ii/',
+    'remove-duplicates-from-sorted-list-ii',
     'https://www.acwing.com/activity/content/problem/content/2431/',
   ],
   [
-    '/problems/remove-duplicates-from-sorted-list/',
+    'remove-duplicates-from-sorted-list',
     'https://www.acwing.com/activity/content/problem/content/2432/',
   ],
   [
-    '/problems/largest-rectangle-in-histogram/',
+    'largest-rectangle-in-histogram',
     'https://www.acwing.com/activity/content/problem/content/2433/',
   ],
   [
-    '/problems/maximal-rectangle/',
+    'maximal-rectangle',
     'https://www.acwing.com/activity/content/problem/content/2434/',
   ],
   [
-    '/problems/partition-list/',
+    'partition-list',
     'https://www.acwing.com/activity/content/problem/content/2435/',
   ],
   [
-    '/problems/scramble-string/',
+    'scramble-string',
     'https://www.acwing.com/activity/content/problem/content/2436/',
   ],
   [
-    '/problems/merge-sorted-array/',
+    'merge-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/2437/',
   ],
   [
-    '/problems/gray-code/',
+    'gray-code',
     'https://www.acwing.com/activity/content/problem/content/2438/',
   ],
   [
-    '/problems/subsets-ii/',
+    'subsets-ii',
     'https://www.acwing.com/activity/content/problem/content/2439/',
   ],
   [
-    '/problems/decode-ways/',
+    'decode-ways',
     'https://www.acwing.com/activity/content/problem/content/2444/',
   ],
   [
-    '/problems/reverse-linked-list-ii/',
+    'reverse-linked-list-ii',
     'https://www.acwing.com/activity/content/problem/content/2445/',
   ],
   [
-    '/problems/restore-ip-addresses/',
+    'restore-ip-addresses',
     'https://www.acwing.com/activity/content/problem/content/2446/',
   ],
   [
-    '/problems/binary-tree-inorder-traversal/',
+    'binary-tree-inorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/2447/',
   ],
   [
-    '/problems/unique-binary-search-trees-ii/',
+    'unique-binary-search-trees-ii',
     'https://www.acwing.com/activity/content/problem/content/2448/',
   ],
   [
-    '/problems/unique-binary-search-trees/',
+    'unique-binary-search-trees',
     'https://www.acwing.com/activity/content/problem/content/2449/',
   ],
   [
-    '/problems/interleaving-string/',
+    'interleaving-string',
     'https://www.acwing.com/activity/content/problem/content/2450/',
   ],
   [
-    '/problems/validate-binary-search-tree/',
+    'validate-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2451/',
   ],
   [
-    '/problems/recover-binary-search-tree/',
+    'recover-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2452/',
   ],
   [
-    '/problems/same-tree/',
+    'same-tree',
     'https://www.acwing.com/activity/content/problem/content/2453/',
   ],
   [
-    '/problems/symmetric-tree/',
+    'symmetric-tree',
     'https://www.acwing.com/activity/content/problem/content/2454/',
   ],
   [
-    '/problems/binary-tree-level-order-traversal/',
+    'binary-tree-level-order-traversal',
     'https://www.acwing.com/activity/content/problem/content/2455/',
   ],
   [
-    '/problems/binary-tree-zigzag-level-order-traversal/',
+    'binary-tree-zigzag-level-order-traversal',
     'https://www.acwing.com/activity/content/problem/content/2456/',
   ],
   [
-    '/problems/maximum-depth-of-binary-tree/',
+    'maximum-depth-of-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2457/',
   ],
   [
-    '/problems/construct-binary-tree-from-preorder-and-inorder-traversal/',
+    'construct-binary-tree-from-preorder-and-inorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/2458/',
   ],
   [
-    '/problems/construct-binary-tree-from-inorder-and-postorder-traversal/',
+    'construct-binary-tree-from-inorder-and-postorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/2459/',
   ],
   [
-    '/problems/binary-tree-level-order-traversal-ii/',
+    'binary-tree-level-order-traversal-ii',
     'https://www.acwing.com/activity/content/problem/content/2460/',
   ],
   [
-    '/problems/convert-sorted-array-to-binary-search-tree/',
+    'convert-sorted-array-to-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2461/',
   ],
   [
-    '/problems/convert-sorted-list-to-binary-search-tree/',
+    'convert-sorted-list-to-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2462/',
   ],
   [
-    '/problems/balanced-binary-tree/',
+    'balanced-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2463/',
   ],
   [
-    '/problems/minimum-depth-of-binary-tree/',
+    'minimum-depth-of-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2473/',
   ],
+  ['path-sum', 'https://www.acwing.com/activity/content/problem/content/2474/'],
   [
-    '/problems/path-sum/',
-    'https://www.acwing.com/activity/content/problem/content/2474/',
-  ],
-  [
-    '/problems/path-sum-ii/',
+    'path-sum-ii',
     'https://www.acwing.com/activity/content/problem/content/2475/',
   ],
   [
-    '/problems/flatten-binary-tree-to-linked-list/',
+    'flatten-binary-tree-to-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2476/',
   ],
   [
-    '/problems/distinct-subsequences/',
+    'distinct-subsequences',
     'https://www.acwing.com/activity/content/problem/content/2477/',
   ],
   [
-    '/problems/populating-next-right-pointers-in-each-node/',
+    'populating-next-right-pointers-in-each-node',
     'https://www.acwing.com/activity/content/problem/content/2478/',
   ],
   [
-    '/problems/populating-next-right-pointers-in-each-node-ii/',
+    'populating-next-right-pointers-in-each-node-ii',
     'https://www.acwing.com/activity/content/problem/content/2479/',
   ],
   [
-    '/problems/pascals-triangle/',
+    'pascals-triangle',
     'https://www.acwing.com/activity/content/problem/content/2480/',
   ],
   [
-    '/problems/pascals-triangle-ii/',
+    'pascals-triangle-ii',
     'https://www.acwing.com/activity/content/problem/content/2481/',
   ],
+  ['triangle', 'https://www.acwing.com/activity/content/problem/content/2482/'],
   [
-    '/problems/triangle/',
-    'https://www.acwing.com/activity/content/problem/content/2482/',
-  ],
-  [
-    '/problems/best-time-to-buy-and-sell-stock/',
+    'best-time-to-buy-and-sell-stock',
     'https://www.acwing.com/activity/content/problem/content/2483/',
   ],
   [
-    '/problems/best-time-to-buy-and-sell-stock-ii/',
+    'best-time-to-buy-and-sell-stock-ii',
     'https://www.acwing.com/activity/content/problem/content/2484/',
   ],
   [
-    '/problems/best-time-to-buy-and-sell-stock-iii/',
+    'best-time-to-buy-and-sell-stock-iii',
     'https://www.acwing.com/activity/content/problem/content/2485/',
   ],
   [
-    '/problems/binary-tree-maximum-path-sum/',
+    'binary-tree-maximum-path-sum',
     'https://www.acwing.com/activity/content/problem/content/2486/',
   ],
   [
-    '/problems/valid-palindrome/',
+    'valid-palindrome',
     'https://www.acwing.com/activity/content/problem/content/2487/',
   ],
   [
-    '/problems/word-ladder-ii/',
+    'word-ladder-ii',
     'https://www.acwing.com/activity/content/problem/content/2488/',
   ],
   [
-    '/problems/word-ladder/',
+    'word-ladder',
     'https://www.acwing.com/activity/content/problem/content/2489/',
   ],
   [
-    '/problems/longest-consecutive-sequence/',
+    'longest-consecutive-sequence',
     'https://www.acwing.com/activity/content/problem/content/2490/',
   ],
   [
-    '/problems/sum-root-to-leaf-numbers/',
+    'sum-root-to-leaf-numbers',
     'https://www.acwing.com/activity/content/problem/content/2491/',
   ],
   [
-    '/problems/surrounded-regions/',
+    'surrounded-regions',
     'https://www.acwing.com/activity/content/problem/content/2492/',
   ],
   [
-    '/problems/palindrome-partitioning/',
+    'palindrome-partitioning',
     'https://www.acwing.com/activity/content/problem/content/2501/',
   ],
   [
-    '/problems/palindrome-partitioning-ii/',
+    'palindrome-partitioning-ii',
     'https://www.acwing.com/activity/content/problem/content/2502/',
   ],
   [
-    '/problems/clone-graph/',
+    'clone-graph',
     'https://www.acwing.com/activity/content/problem/content/2503/',
   ],
   [
-    '/problems/gas-station/',
+    'gas-station',
     'https://www.acwing.com/activity/content/problem/content/2504/',
   ],
+  ['candy', 'https://www.acwing.com/activity/content/problem/content/2505/'],
   [
-    '/problems/candy/',
-    'https://www.acwing.com/activity/content/problem/content/2505/',
-  ],
-  [
-    '/problems/single-number/',
+    'single-number',
     'https://www.acwing.com/activity/content/problem/content/2506/',
   ],
   [
-    '/problems/single-number-ii/',
+    'single-number-ii',
     'https://www.acwing.com/activity/content/problem/content/2507/',
   ],
   [
-    '/problems/copy-list-with-random-pointer/',
+    'copy-list-with-random-pointer',
     'https://www.acwing.com/activity/content/problem/content/2508/',
   ],
   [
-    '/problems/word-break/',
+    'word-break',
     'https://www.acwing.com/activity/content/problem/content/2509/',
   ],
   [
-    '/problems/word-break-ii/',
+    'word-break-ii',
     'https://www.acwing.com/activity/content/problem/content/2510/',
   ],
   [
-    '/problems/linked-list-cycle/',
+    'linked-list-cycle',
     'https://www.acwing.com/activity/content/problem/content/2511/',
   ],
   [
-    '/problems/linked-list-cycle-ii/',
+    'linked-list-cycle-ii',
     'https://www.acwing.com/activity/content/problem/content/2512/',
   ],
   [
-    '/problems/reorder-list/',
+    'reorder-list',
     'https://www.acwing.com/activity/content/problem/content/2513/',
   ],
   [
-    '/problems/binary-tree-preorder-traversal/',
+    'binary-tree-preorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/2514/',
   ],
   [
-    '/problems/binary-tree-postorder-traversal/',
+    'binary-tree-postorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/2515/',
   ],
   [
-    '/problems/lru-cache/',
+    'lru-cache',
     'https://www.acwing.com/activity/content/problem/content/2516/',
   ],
   [
-    '/problems/insertion-sort-list/',
+    'insertion-sort-list',
     'https://www.acwing.com/activity/content/problem/content/2517/',
   ],
   [
-    '/problems/sort-list/',
+    'sort-list',
     'https://www.acwing.com/activity/content/problem/content/2518/',
   ],
   [
-    '/problems/max-points-on-a-line/',
+    'max-points-on-a-line',
     'https://www.acwing.com/activity/content/problem/content/2519/',
   ],
   [
-    '/problems/evaluate-reverse-polish-notation/',
+    'evaluate-reverse-polish-notation',
     'https://www.acwing.com/activity/content/problem/content/2520/',
   ],
   [
-    '/problems/reverse-words-in-a-string/',
+    'reverse-words-in-a-string',
     'https://www.acwing.com/activity/content/problem/content/2532/',
   ],
   [
-    '/problems/maximum-product-subarray/',
+    'maximum-product-subarray',
     'https://www.acwing.com/activity/content/problem/content/2533/',
   ],
   [
-    '/problems/find-minimum-in-rotated-sorted-array/',
+    'find-minimum-in-rotated-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/2534/',
   ],
   [
-    '/problems/find-minimum-in-rotated-sorted-array-ii/',
+    'find-minimum-in-rotated-sorted-array-ii',
     'https://www.acwing.com/activity/content/problem/content/2535/',
   ],
   [
-    '/problems/min-stack/',
+    'min-stack',
     'https://www.acwing.com/activity/content/problem/content/2536/',
   ],
   [
-    '/problems/intersection-of-two-linked-lists/',
+    'intersection-of-two-linked-lists',
     'https://www.acwing.com/activity/content/problem/content/2537/',
   ],
   [
-    '/problems/find-peak-element/',
+    'find-peak-element',
     'https://www.acwing.com/activity/content/problem/content/2538/',
   ],
   [
-    '/problems/maximum-gap/',
+    'maximum-gap',
     'https://www.acwing.com/activity/content/problem/content/2539/',
   ],
   [
-    '/problems/compare-version-numbers/',
+    'compare-version-numbers',
     'https://www.acwing.com/activity/content/problem/content/2540/',
   ],
   [
-    '/problems/fraction-to-recurring-decimal/',
+    'fraction-to-recurring-decimal',
     'https://www.acwing.com/activity/content/problem/content/2541/',
   ],
   [
-    '/problems/two-sum-ii-input-array-is-sorted/',
+    'two-sum-ii-input-array-is-sorted',
     'https://www.acwing.com/activity/content/problem/content/2542/',
   ],
   [
-    '/problems/excel-sheet-column-title/',
+    'excel-sheet-column-title',
     'https://www.acwing.com/activity/content/problem/content/2543/',
   ],
   [
-    '/problems/majority-element/',
+    'majority-element',
     'https://www.acwing.com/activity/content/problem/content/2544/',
   ],
   [
-    '/problems/excel-sheet-column-number/',
+    'excel-sheet-column-number',
     'https://www.acwing.com/activity/content/problem/content/2545/',
   ],
   [
-    '/problems/factorial-trailing-zeroes/',
+    'factorial-trailing-zeroes',
     'https://www.acwing.com/activity/content/problem/content/2546/',
   ],
   [
-    '/problems/binary-search-tree-iterator/',
+    'binary-search-tree-iterator',
     'https://www.acwing.com/activity/content/problem/content/2547/',
   ],
   [
-    '/problems/dungeon-game/',
+    'dungeon-game',
     'https://www.acwing.com/activity/content/problem/content/2548/',
   ],
   [
-    '/problems/largest-number/',
+    'largest-number',
     'https://www.acwing.com/activity/content/problem/content/2549/',
   ],
   [
-    '/problems/repeated-dna-sequences/',
+    'repeated-dna-sequences',
     'https://www.acwing.com/activity/content/problem/content/2550/',
   ],
   [
-    '/problems/best-time-to-buy-and-sell-stock-iv/',
+    'best-time-to-buy-and-sell-stock-iv',
     'https://www.acwing.com/activity/content/problem/content/2551/',
   ],
   [
-    '/problems/rotate-array/',
+    'rotate-array',
     'https://www.acwing.com/activity/content/problem/content/2563/',
   ],
   [
-    '/problems/reverse-bits/',
+    'reverse-bits',
     'https://www.acwing.com/activity/content/problem/content/2564/',
   ],
   [
-    '/problems/number-of-1-bits/',
+    'number-of-1-bits',
     'https://www.acwing.com/activity/content/problem/content/2565/',
   ],
   [
-    '/problems/house-robber/',
+    'house-robber',
     'https://www.acwing.com/activity/content/problem/content/2566/',
   ],
   [
-    '/problems/binary-tree-right-side-view/',
+    'binary-tree-right-side-view',
     'https://www.acwing.com/activity/content/problem/content/2567/',
   ],
   [
-    '/problems/number-of-islands/',
+    'number-of-islands',
     'https://www.acwing.com/activity/content/problem/content/2568/',
   ],
   [
-    '/problems/bitwise-and-of-numbers-range/',
+    'bitwise-and-of-numbers-range',
     'https://www.acwing.com/activity/content/problem/content/2569/',
   ],
   [
-    '/problems/happy-number/',
+    'happy-number',
     'https://www.acwing.com/activity/content/problem/content/2570/',
   ],
   [
-    '/problems/remove-linked-list-elements/',
+    'remove-linked-list-elements',
     'https://www.acwing.com/activity/content/problem/content/2571/',
   ],
   [
-    '/problems/count-primes/',
+    'count-primes',
     'https://www.acwing.com/activity/content/problem/content/2572/',
   ],
   [
-    '/problems/isomorphic-strings/',
+    'isomorphic-strings',
     'https://www.acwing.com/activity/content/problem/content/2573/',
   ],
   [
-    '/problems/reverse-linked-list/',
+    'reverse-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2574/',
   ],
   [
-    '/problems/course-schedule/',
+    'course-schedule',
     'https://www.acwing.com/activity/content/problem/content/2575/',
   ],
   [
-    '/problems/implement-trie-prefix-tree/',
+    'implement-trie-prefix-tree',
     'https://www.acwing.com/activity/content/problem/content/2576/',
   ],
   [
-    '/problems/minimum-size-subarray-sum/',
+    'minimum-size-subarray-sum',
     'https://www.acwing.com/activity/content/problem/content/2577/',
   ],
   [
-    '/problems/course-schedule-ii/',
+    'course-schedule-ii',
     'https://www.acwing.com/activity/content/problem/content/2578/',
   ],
   [
-    '/problems/design-add-and-search-words-data-structure/',
+    'design-add-and-search-words-data-structure',
     'https://www.acwing.com/activity/content/problem/content/2579/',
   ],
   [
-    '/problems/word-search-ii/',
+    'word-search-ii',
     'https://www.acwing.com/activity/content/problem/content/2580/',
   ],
   [
-    '/problems/house-robber-ii/',
+    'house-robber-ii',
     'https://www.acwing.com/activity/content/problem/content/2581/',
   ],
   [
-    '/problems/shortest-palindrome/',
+    'shortest-palindrome',
     'https://www.acwing.com/activity/content/problem/content/2582/',
   ],
   [
-    '/problems/kth-largest-element-in-an-array/',
+    'kth-largest-element-in-an-array',
     'https://www.acwing.com/activity/content/problem/content/2596/',
   ],
   [
-    '/problems/combination-sum-iii/',
+    'combination-sum-iii',
     'https://www.acwing.com/activity/content/problem/content/2597/',
   ],
   [
-    '/problems/contains-duplicate/',
+    'contains-duplicate',
     'https://www.acwing.com/activity/content/problem/content/2598/',
   ],
   [
-    '/problems/the-skyline-problem/',
+    'the-skyline-problem',
     'https://www.acwing.com/activity/content/problem/content/2599/',
   ],
   [
-    '/problems/contains-duplicate-ii/',
+    'contains-duplicate-ii',
     'https://www.acwing.com/activity/content/problem/content/2600/',
   ],
   [
-    '/problems/contains-duplicate-iii/',
+    'contains-duplicate-iii',
     'https://www.acwing.com/activity/content/problem/content/2601/',
   ],
   [
-    '/problems/maximal-square/',
+    'maximal-square',
     'https://www.acwing.com/activity/content/problem/content/2602/',
   ],
   [
-    '/problems/count-complete-tree-nodes/',
+    'count-complete-tree-nodes',
     'https://www.acwing.com/activity/content/problem/content/2603/',
   ],
   [
-    '/problems/rectangle-area/',
+    'rectangle-area',
     'https://www.acwing.com/activity/content/problem/content/2604/',
   ],
   [
-    '/problems/basic-calculator/',
+    'basic-calculator',
     'https://www.acwing.com/activity/content/problem/content/2605/',
   ],
   [
-    '/problems/implement-stack-using-queues/',
+    'implement-stack-using-queues',
     'https://www.acwing.com/activity/content/problem/content/2606/',
   ],
   [
-    '/problems/invert-binary-tree/',
+    'invert-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2607/',
   ],
   [
-    '/problems/basic-calculator-ii/',
+    'basic-calculator-ii',
     'https://www.acwing.com/activity/content/problem/content/2608/',
   ],
   [
-    '/problems/summary-ranges/',
+    'summary-ranges',
     'https://www.acwing.com/activity/content/problem/content/2609/',
   ],
   [
-    '/problems/majority-element-ii/',
+    'majority-element-ii',
     'https://www.acwing.com/activity/content/problem/content/2610/',
   ],
   [
-    '/problems/kth-smallest-element-in-a-bst/',
+    'kth-smallest-element-in-a-bst',
     'https://www.acwing.com/activity/content/problem/content/2611/',
   ],
   [
-    '/problems/power-of-two/',
+    'power-of-two',
     'https://www.acwing.com/activity/content/problem/content/2612/',
   ],
   [
-    '/problems/implement-queue-using-stacks/',
+    'implement-queue-using-stacks',
     'https://www.acwing.com/activity/content/problem/content/2613/',
   ],
   [
-    '/problems/number-of-digit-one/',
+    'number-of-digit-one',
     'https://www.acwing.com/activity/content/problem/content/2614/',
   ],
   [
-    '/problems/palindrome-linked-list/',
+    'palindrome-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2615/',
   ],
   [
-    '/problems/lowest-common-ancestor-of-a-binary-search-tree/',
+    'lowest-common-ancestor-of-a-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2629/',
   ],
   [
-    '/problems/lowest-common-ancestor-of-a-binary-tree/',
+    'lowest-common-ancestor-of-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2630/',
   ],
   [
-    '/problems/delete-node-in-a-linked-list/',
+    'delete-node-in-a-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2631/',
   ],
   [
-    '/problems/product-of-array-except-self/',
+    'product-of-array-except-self',
     'https://www.acwing.com/activity/content/problem/content/2632/',
   ],
   [
-    '/problems/sliding-window-maximum/',
+    'sliding-window-maximum',
     'https://www.acwing.com/activity/content/problem/content/2633/',
   ],
   [
-    '/problems/search-a-2d-matrix-ii/',
+    'search-a-2d-matrix-ii',
     'https://www.acwing.com/activity/content/problem/content/2634/',
   ],
   [
-    '/problems/different-ways-to-add-parentheses/',
+    'different-ways-to-add-parentheses',
     'https://www.acwing.com/activity/content/problem/content/2635/',
   ],
   [
-    '/problems/valid-anagram/',
+    'valid-anagram',
     'https://www.acwing.com/activity/content/problem/content/2636/',
   ],
   [
-    '/problems/binary-tree-paths/',
+    'binary-tree-paths',
     'https://www.acwing.com/activity/content/problem/content/2637/',
   ],
   [
-    '/problems/add-digits/',
+    'add-digits',
     'https://www.acwing.com/activity/content/problem/content/2638/',
   ],
   [
-    '/problems/single-number-iii/',
+    'single-number-iii',
     'https://www.acwing.com/activity/content/problem/content/2639/',
   ],
   [
-    '/problems/ugly-number/',
+    'ugly-number',
     'https://www.acwing.com/activity/content/problem/content/2640/',
   ],
   [
-    '/problems/ugly-number-ii/',
+    'ugly-number-ii',
     'https://www.acwing.com/activity/content/problem/content/2641/',
   ],
   [
-    '/problems/missing-number/',
+    'missing-number',
     'https://www.acwing.com/activity/content/problem/content/2642/',
   ],
   [
-    '/problems/integer-to-english-words/',
+    'integer-to-english-words',
     'https://www.acwing.com/activity/content/problem/content/2643/',
   ],
+  ['h-index', 'https://www.acwing.com/activity/content/problem/content/2644/'],
   [
-    '/problems/h-index/',
-    'https://www.acwing.com/activity/content/problem/content/2644/',
-  ],
-  [
-    '/problems/h-index-ii/',
+    'h-index-ii',
     'https://www.acwing.com/activity/content/problem/content/2645/',
   ],
   [
-    '/problems/first-bad-version/',
+    'first-bad-version',
     'https://www.acwing.com/activity/content/problem/content/2646/',
   ],
   [
-    '/problems/perfect-squares/',
+    'perfect-squares',
     'https://www.acwing.com/activity/content/problem/content/2647/',
   ],
   [
-    '/problems/expression-add-operators/',
+    'expression-add-operators',
     'https://www.acwing.com/activity/content/problem/content/2648/',
   ],
   [
-    '/problems/move-zeroes/',
+    'move-zeroes',
     'https://www.acwing.com/activity/content/problem/content/2663/',
   ],
   [
-    '/problems/peeking-iterator/',
+    'peeking-iterator',
     'https://www.acwing.com/activity/content/problem/content/2664/',
   ],
   [
-    '/problems/find-the-duplicate-number/',
+    'find-the-duplicate-number',
     'https://www.acwing.com/activity/content/problem/content/2665/',
   ],
   [
-    '/problems/game-of-life/',
+    'game-of-life',
     'https://www.acwing.com/activity/content/problem/content/2666/',
   ],
   [
-    '/problems/word-pattern/',
+    'word-pattern',
     'https://www.acwing.com/activity/content/problem/content/2667/',
   ],
+  ['nim-game', 'https://www.acwing.com/activity/content/problem/content/2668/'],
   [
-    '/problems/nim-game/',
-    'https://www.acwing.com/activity/content/problem/content/2668/',
-  ],
-  [
-    '/problems/find-median-from-data-stream/',
+    'find-median-from-data-stream',
     'https://www.acwing.com/activity/content/problem/content/2669/',
   ],
   [
-    '/problems/serialize-and-deserialize-binary-tree/',
+    'serialize-and-deserialize-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2670/',
   ],
   [
-    '/problems/bulls-and-cows/',
+    'bulls-and-cows',
     'https://www.acwing.com/activity/content/problem/content/2671/',
   ],
   [
-    '/problems/longest-increasing-subsequence/',
+    'longest-increasing-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2672/',
   ],
   [
-    '/problems/remove-invalid-parentheses/',
+    'remove-invalid-parentheses',
     'https://www.acwing.com/activity/content/problem/content/2673/',
   ],
   [
-    '/problems/range-sum-query-immutable/',
+    'range-sum-query-immutable',
     'https://www.acwing.com/activity/content/problem/content/2674/',
   ],
   [
-    '/problems/range-sum-query-2d-immutable/',
+    'range-sum-query-2d-immutable',
     'https://www.acwing.com/activity/content/problem/content/2675/',
   ],
   [
-    '/problems/additive-number/',
+    'additive-number',
     'https://www.acwing.com/activity/content/problem/content/2676/',
   ],
   [
-    '/problems/range-sum-query-mutable/',
+    'range-sum-query-mutable',
     'https://www.acwing.com/activity/content/problem/content/2677/',
   ],
   [
-    '/problems/best-time-to-buy-and-sell-stock-with-cooldown/',
+    'best-time-to-buy-and-sell-stock-with-cooldown',
     'https://www.acwing.com/activity/content/problem/content/2678/',
   ],
   [
-    '/problems/minimum-height-trees/',
+    'minimum-height-trees',
     'https://www.acwing.com/activity/content/problem/content/2679/',
   ],
   [
-    '/problems/burst-balloons/',
+    'burst-balloons',
     'https://www.acwing.com/activity/content/problem/content/2680/',
   ],
   [
-    '/problems/super-ugly-number/',
+    'super-ugly-number',
     'https://www.acwing.com/activity/content/problem/content/2681/',
   ],
   [
-    '/problems/count-of-smaller-numbers-after-self/',
+    'count-of-smaller-numbers-after-self',
     'https://www.acwing.com/activity/content/problem/content/2682/',
   ],
   [
-    '/problems/remove-duplicate-letters/',
+    'remove-duplicate-letters',
     'https://www.acwing.com/activity/content/problem/content/2709/',
   ],
   [
-    '/problems/maximum-product-of-word-lengths/',
+    'maximum-product-of-word-lengths',
     'https://www.acwing.com/activity/content/problem/content/2710/',
   ],
   [
-    '/problems/bulb-switcher/',
+    'bulb-switcher',
     'https://www.acwing.com/activity/content/problem/content/2711/',
   ],
   [
-    '/problems/create-maximum-number/',
+    'create-maximum-number',
     'https://www.acwing.com/activity/content/problem/content/2712/',
   ],
   [
-    '/problems/coin-change/',
+    'coin-change',
     'https://www.acwing.com/activity/content/problem/content/2713/',
   ],
   [
-    '/problems/wiggle-sort-ii/',
+    'wiggle-sort-ii',
     'https://www.acwing.com/activity/content/problem/content/2714/',
   ],
   [
-    '/problems/power-of-three/',
+    'power-of-three',
     'https://www.acwing.com/activity/content/problem/content/2715/',
   ],
   [
-    '/problems/count-of-range-sum/',
+    'count-of-range-sum',
     'https://www.acwing.com/activity/content/problem/content/2716/',
   ],
   [
-    '/problems/odd-even-linked-list/',
+    'odd-even-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2717/',
   ],
   [
-    '/problems/longest-increasing-path-in-a-matrix/',
+    'longest-increasing-path-in-a-matrix',
     'https://www.acwing.com/activity/content/problem/content/2718/',
   ],
   [
-    '/problems/patching-array/',
+    'patching-array',
     'https://www.acwing.com/activity/content/problem/content/2719/',
   ],
   [
-    '/problems/verify-preorder-serialization-of-a-binary-tree/',
+    'verify-preorder-serialization-of-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/2720/',
   ],
   [
-    '/problems/reconstruct-itinerary/',
+    'reconstruct-itinerary',
     'https://www.acwing.com/activity/content/problem/content/2721/',
   ],
   [
-    '/problems/increasing-triplet-subsequence/',
+    'increasing-triplet-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2722/',
   ],
   [
-    '/problems/self-crossing/',
+    'self-crossing',
     'https://www.acwing.com/activity/content/problem/content/2723/',
   ],
   [
-    '/problems/palindrome-pairs/',
+    'palindrome-pairs',
     'https://www.acwing.com/activity/content/problem/content/2724/',
   ],
   [
-    '/problems/house-robber-iii/',
+    'house-robber-iii',
     'https://www.acwing.com/activity/content/problem/content/2725/',
   ],
   [
-    '/problems/counting-bits/',
+    'counting-bits',
     'https://www.acwing.com/activity/content/problem/content/2726/',
   ],
   [
-    '/problems/flatten-nested-list-iterator/',
+    'flatten-nested-list-iterator',
     'https://www.acwing.com/activity/content/problem/content/2727/',
   ],
   [
-    '/problems/power-of-four/',
+    'power-of-four',
     'https://www.acwing.com/activity/content/problem/content/2728/',
   ],
   [
-    '/problems/integer-break/',
+    'integer-break',
     'https://www.acwing.com/activity/content/problem/content/2733/',
   ],
   [
-    '/problems/reverse-string/',
+    'reverse-string',
     'https://www.acwing.com/activity/content/problem/content/2734/',
   ],
   [
-    '/problems/reverse-vowels-of-a-string/',
+    'reverse-vowels-of-a-string',
     'https://www.acwing.com/activity/content/problem/content/2735/',
   ],
   [
-    '/problems/top-k-frequent-elements/',
+    'top-k-frequent-elements',
     'https://www.acwing.com/activity/content/problem/content/2736/',
   ],
   [
-    '/problems/intersection-of-two-arrays/',
+    'intersection-of-two-arrays',
     'https://www.acwing.com/activity/content/problem/content/2737/',
   ],
   [
-    '/problems/intersection-of-two-arrays-ii/',
+    'intersection-of-two-arrays-ii',
     'https://www.acwing.com/activity/content/problem/content/2738/',
   ],
   [
-    '/problems/data-stream-as-disjoint-intervals/',
+    'data-stream-as-disjoint-intervals',
     'https://www.acwing.com/activity/content/problem/content/2739/',
   ],
   [
-    '/problems/russian-doll-envelopes/',
+    'russian-doll-envelopes',
     'https://www.acwing.com/activity/content/problem/content/2740/',
   ],
   [
-    '/problems/design-twitter/',
+    'design-twitter',
     'https://www.acwing.com/activity/content/problem/content/2741/',
   ],
   [
-    '/problems/count-numbers-with-unique-digits/',
+    'count-numbers-with-unique-digits',
     'https://www.acwing.com/activity/content/problem/content/2742/',
   ],
   [
-    '/problems/max-sum-of-rectangle-no-larger-than-k/',
+    'max-sum-of-rectangle-no-larger-than-k',
     'https://www.acwing.com/activity/content/problem/content/2743/',
   ],
   [
-    '/problems/water-and-jug-problem/',
+    'water-and-jug-problem',
     'https://www.acwing.com/activity/content/problem/content/2744/',
   ],
   [
-    '/problems/valid-perfect-square/',
+    'valid-perfect-square',
     'https://www.acwing.com/activity/content/problem/content/2745/',
   ],
   [
-    '/problems/largest-divisible-subset/',
+    'largest-divisible-subset',
     'https://www.acwing.com/activity/content/problem/content/2746/',
   ],
   [
-    '/problems/sum-of-two-integers/',
+    'sum-of-two-integers',
     'https://www.acwing.com/activity/content/problem/content/2747/',
   ],
   [
-    '/problems/super-pow/',
+    'super-pow',
     'https://www.acwing.com/activity/content/problem/content/2748/',
   ],
   [
-    '/problems/find-k-pairs-with-smallest-sums/',
+    'find-k-pairs-with-smallest-sums',
     'https://www.acwing.com/activity/content/problem/content/2749/',
   ],
   [
-    '/problems/guess-number-higher-or-lower/',
+    'guess-number-higher-or-lower',
     'https://www.acwing.com/activity/content/problem/content/2750/',
   ],
   [
-    '/problems/guess-number-higher-or-lower-ii/',
+    'guess-number-higher-or-lower-ii',
     'https://www.acwing.com/activity/content/problem/content/2751/',
   ],
   [
-    '/problems/wiggle-subsequence/',
+    'wiggle-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2752/',
   ],
   [
-    '/problems/combination-sum-iv/',
+    'combination-sum-iv',
     'https://www.acwing.com/activity/content/problem/content/2763/',
   ],
   [
-    '/problems/kth-smallest-element-in-a-sorted-matrix/',
+    'kth-smallest-element-in-a-sorted-matrix',
     'https://www.acwing.com/activity/content/problem/content/2764/',
   ],
   [
-    '/problems/insert-delete-getrandom-o1/',
+    'insert-delete-getrandom-o1',
     'https://www.acwing.com/activity/content/problem/content/2765/',
   ],
   [
-    '/problems/insert-delete-getrandom-o1-duplicates-allowed/',
+    'insert-delete-getrandom-o1-duplicates-allowed',
     'https://www.acwing.com/activity/content/problem/content/2766/',
   ],
   [
-    '/problems/linked-list-random-node/',
+    'linked-list-random-node',
     'https://www.acwing.com/activity/content/problem/content/2767/',
   ],
   [
-    '/problems/ransom-note/',
+    'ransom-note',
     'https://www.acwing.com/activity/content/problem/content/2768/',
   ],
   [
-    '/problems/shuffle-an-array/',
+    'shuffle-an-array',
     'https://www.acwing.com/activity/content/problem/content/2769/',
   ],
   [
-    '/problems/mini-parser/',
+    'mini-parser',
     'https://www.acwing.com/activity/content/problem/content/2770/',
   ],
   [
-    '/problems/lexicographical-numbers/',
+    'lexicographical-numbers',
     'https://www.acwing.com/activity/content/problem/content/2771/',
   ],
   [
-    '/problems/first-unique-character-in-a-string/',
+    'first-unique-character-in-a-string',
     'https://www.acwing.com/activity/content/problem/content/2772/',
   ],
   [
-    '/problems/longest-absolute-file-path/',
+    'longest-absolute-file-path',
     'https://www.acwing.com/activity/content/problem/content/2773/',
   ],
   [
-    '/problems/find-the-difference/',
+    'find-the-difference',
     'https://www.acwing.com/activity/content/problem/content/2774/',
   ],
   [
-    '/problems/elimination-game/',
+    'elimination-game',
     'https://www.acwing.com/activity/content/problem/content/2775/',
   ],
   [
-    '/problems/perfect-rectangle/',
+    'perfect-rectangle',
     'https://www.acwing.com/activity/content/problem/content/2776/',
   ],
   [
-    '/problems/is-subsequence/',
+    'is-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2777/',
   ],
   [
-    '/problems/utf-8-validation/',
+    'utf-8-validation',
     'https://www.acwing.com/activity/content/problem/content/2778/',
   ],
   [
-    '/problems/decode-string/',
+    'decode-string',
     'https://www.acwing.com/activity/content/problem/content/2779/',
   ],
   [
-    '/problems/longest-substring-with-at-least-k-repeating-characters/',
+    'longest-substring-with-at-least-k-repeating-characters',
     'https://www.acwing.com/activity/content/problem/content/2780/',
   ],
   [
-    '/problems/rotate-function/',
+    'rotate-function',
     'https://www.acwing.com/activity/content/problem/content/2781/',
   ],
   [
-    '/problems/integer-replacement/',
+    'integer-replacement',
     'https://www.acwing.com/activity/content/problem/content/2782/',
   ],
   [
-    '/problems/random-pick-index/',
+    'random-pick-index',
     'https://www.acwing.com/activity/content/problem/content/2797/',
   ],
   [
-    '/problems/evaluate-division/',
+    'evaluate-division',
     'https://www.acwing.com/activity/content/problem/content/2798/',
   ],
   [
-    '/problems/nth-digit/',
+    'nth-digit',
     'https://www.acwing.com/activity/content/problem/content/2799/',
   ],
   [
-    '/problems/binary-watch/',
+    'binary-watch',
     'https://www.acwing.com/activity/content/problem/content/2800/',
   ],
   [
-    '/problems/remove-k-digits/',
+    'remove-k-digits',
     'https://www.acwing.com/activity/content/problem/content/2801/',
   ],
   [
-    '/problems/frog-jump/',
+    'frog-jump',
     'https://www.acwing.com/activity/content/problem/content/2802/',
   ],
   [
-    '/problems/sum-of-left-leaves/',
+    'sum-of-left-leaves',
     'https://www.acwing.com/activity/content/problem/content/2803/',
   ],
   [
-    '/problems/convert-a-number-to-hexadecimal/',
+    'convert-a-number-to-hexadecimal',
     'https://www.acwing.com/activity/content/problem/content/2804/',
   ],
   [
-    '/problems/queue-reconstruction-by-height/',
+    'queue-reconstruction-by-height',
     'https://www.acwing.com/activity/content/problem/content/2805/',
   ],
   [
-    '/problems/trapping-rain-water-ii/',
+    'trapping-rain-water-ii',
     'https://www.acwing.com/activity/content/problem/content/2806/',
   ],
   [
-    '/problems/longest-palindrome/',
+    'longest-palindrome',
     'https://www.acwing.com/activity/content/problem/content/2807/',
   ],
   [
-    '/problems/split-array-largest-sum/',
+    'split-array-largest-sum',
     'https://www.acwing.com/activity/content/problem/content/2808/',
   ],
   [
-    '/problems/fizz-buzz/',
+    'fizz-buzz',
     'https://www.acwing.com/activity/content/problem/content/2809/',
   ],
   [
-    '/problems/arithmetic-slices/',
+    'arithmetic-slices',
     'https://www.acwing.com/activity/content/problem/content/2810/',
   ],
   [
-    '/problems/third-maximum-number/',
+    'third-maximum-number',
     'https://www.acwing.com/activity/content/problem/content/2811/',
   ],
   [
-    '/problems/add-strings/',
+    'add-strings',
     'https://www.acwing.com/activity/content/problem/content/2812/',
   ],
   [
-    '/problems/partition-equal-subset-sum/',
+    'partition-equal-subset-sum',
     'https://www.acwing.com/activity/content/problem/content/2813/',
   ],
   [
-    '/problems/pacific-atlantic-water-flow/',
+    'pacific-atlantic-water-flow',
     'https://www.acwing.com/activity/content/problem/content/2814/',
   ],
   [
-    '/problems/battleships-in-a-board/',
+    'battleships-in-a-board',
     'https://www.acwing.com/activity/content/problem/content/2815/',
   ],
   [
-    '/problems/strong-password-checker/',
+    'strong-password-checker',
     'https://www.acwing.com/activity/content/problem/content/2816/',
   ],
   [
-    '/problems/maximum-xor-of-two-numbers-in-an-array/',
+    'maximum-xor-of-two-numbers-in-an-array',
     'https://www.acwing.com/activity/content/problem/content/2819/',
   ],
   [
-    '/problems/reconstruct-original-digits-from-english/',
+    'reconstruct-original-digits-from-english',
     'https://www.acwing.com/activity/content/problem/content/2820/',
   ],
   [
-    '/problems/longest-repeating-character-replacement/',
+    'longest-repeating-character-replacement',
     'https://www.acwing.com/activity/content/problem/content/2821/',
   ],
   [
-    '/problems/construct-quad-tree/',
+    'construct-quad-tree',
     'https://www.acwing.com/activity/content/problem/content/2822/',
   ],
   [
-    '/problems/n-ary-tree-level-order-traversal/',
+    'n-ary-tree-level-order-traversal',
     'https://www.acwing.com/activity/content/problem/content/2823/',
   ],
   [
-    '/problems/flatten-a-multilevel-doubly-linked-list/',
+    'flatten-a-multilevel-doubly-linked-list',
     'https://www.acwing.com/activity/content/problem/content/2824/',
   ],
   [
-    '/problems/all-oone-data-structure/',
+    'all-oone-data-structure',
     'https://www.acwing.com/activity/content/problem/content/2825/',
   ],
   [
-    '/problems/minimum-genetic-mutation/',
+    'minimum-genetic-mutation',
     'https://www.acwing.com/activity/content/problem/content/2826/',
   ],
   [
-    '/problems/number-of-segments-in-a-string/',
+    'number-of-segments-in-a-string',
     'https://www.acwing.com/activity/content/problem/content/2827/',
   ],
   [
-    '/problems/non-overlapping-intervals/',
+    'non-overlapping-intervals',
     'https://www.acwing.com/activity/content/problem/content/2828/',
   ],
   [
-    '/problems/find-right-interval/',
+    'find-right-interval',
     'https://www.acwing.com/activity/content/problem/content/2858/',
   ],
   [
-    '/problems/path-sum-iii/',
+    'path-sum-iii',
     'https://www.acwing.com/activity/content/problem/content/2859/',
   ],
   [
-    '/problems/find-all-anagrams-in-a-string/',
+    'find-all-anagrams-in-a-string',
     'https://www.acwing.com/activity/content/problem/content/2860/',
   ],
   [
-    '/problems/k-th-smallest-in-lexicographical-order/',
+    'k-th-smallest-in-lexicographical-order',
     'https://www.acwing.com/activity/content/problem/content/2861/',
   ],
   [
-    '/problems/arranging-coins/',
+    'arranging-coins',
     'https://www.acwing.com/activity/content/problem/content/2862/',
   ],
   [
-    '/problems/find-all-duplicates-in-an-array/',
+    'find-all-duplicates-in-an-array',
     'https://www.acwing.com/activity/content/problem/content/2863/',
   ],
   [
-    '/problems/string-compression/',
+    'string-compression',
     'https://www.acwing.com/activity/content/problem/content/2864/',
   ],
   [
-    '/problems/add-two-numbers-ii/',
+    'add-two-numbers-ii',
     'https://www.acwing.com/activity/content/problem/content/2865/',
   ],
   [
-    '/problems/arithmetic-slices-ii-subsequence/',
+    'arithmetic-slices-ii-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2866/',
   ],
   [
-    '/problems/number-of-boomerangs/',
+    'number-of-boomerangs',
     'https://www.acwing.com/activity/content/problem/content/2867/',
   ],
   [
-    '/problems/find-all-numbers-disappeared-in-an-array/',
+    'find-all-numbers-disappeared-in-an-array',
     'https://www.acwing.com/activity/content/problem/content/2868/',
   ],
   [
-    '/problems/serialize-and-deserialize-bst/',
+    'serialize-and-deserialize-bst',
     'https://www.acwing.com/activity/content/problem/content/2869/',
   ],
   [
-    '/problems/delete-node-in-a-bst/',
+    'delete-node-in-a-bst',
     'https://www.acwing.com/activity/content/problem/content/2870/',
   ],
   [
-    '/problems/sort-characters-by-frequency/',
+    'sort-characters-by-frequency',
     'https://www.acwing.com/activity/content/problem/content/2871/',
   ],
   [
-    '/problems/minimum-number-of-arrows-to-burst-balloons/',
+    'minimum-number-of-arrows-to-burst-balloons',
     'https://www.acwing.com/activity/content/problem/content/2872/',
   ],
   [
-    '/problems/minimum-moves-to-equal-array-elements/',
+    'minimum-moves-to-equal-array-elements',
     'https://www.acwing.com/activity/content/problem/content/2873/',
   ],
+  ['4sum-ii', 'https://www.acwing.com/activity/content/problem/content/2874/'],
   [
-    '/problems/4sum-ii/',
-    'https://www.acwing.com/activity/content/problem/content/2874/',
-  ],
-  [
-    '/problems/assign-cookies/',
+    'assign-cookies',
     'https://www.acwing.com/activity/content/problem/content/2875/',
   ],
   [
-    '/problems/132-pattern/',
+    '132-pattern',
     'https://www.acwing.com/activity/content/problem/content/2876/',
   ],
   [
-    '/problems/circular-array-loop/',
+    'circular-array-loop',
     'https://www.acwing.com/activity/content/problem/content/2877/',
   ],
   [
-    '/problems/poor-pigs/',
+    'poor-pigs',
     'https://www.acwing.com/activity/content/problem/content/2878/',
   ],
   [
-    '/problems/repeated-substring-pattern/',
+    'repeated-substring-pattern',
     'https://www.acwing.com/activity/content/problem/content/2879/',
   ],
   [
-    '/problems/lfu-cache/',
+    'lfu-cache',
     'https://www.acwing.com/activity/content/problem/content/2880/',
   ],
   [
-    '/problems/hamming-distance/',
+    'hamming-distance',
     'https://www.acwing.com/activity/content/problem/content/2881/',
   ],
   [
-    '/problems/minimum-moves-to-equal-array-elements-ii/',
+    'minimum-moves-to-equal-array-elements-ii',
     'https://www.acwing.com/activity/content/problem/content/2882/',
   ],
   [
-    '/problems/island-perimeter/',
+    'island-perimeter',
     'https://www.acwing.com/activity/content/problem/content/2883/',
   ],
   [
-    '/problems/can-i-win/',
+    'can-i-win',
     'https://www.acwing.com/activity/content/problem/content/2884/',
   ],
   [
-    '/problems/count-the-repetitions/',
+    'count-the-repetitions',
     'https://www.acwing.com/activity/content/problem/content/2885/',
   ],
   [
-    '/problems/unique-substrings-in-wraparound-string/',
+    'unique-substrings-in-wraparound-string',
     'https://www.acwing.com/activity/content/problem/content/2886/',
   ],
   [
-    '/problems/validate-ip-address/',
+    'validate-ip-address',
     'https://www.acwing.com/activity/content/problem/content/2887/',
   ],
   [
-    '/problems/implement-rand10-using-rand7/',
+    'implement-rand10-using-rand7',
     'https://www.acwing.com/activity/content/problem/content/2888/',
   ],
   [
-    '/problems/concatenated-words/',
+    'concatenated-words',
     'https://www.acwing.com/activity/content/problem/content/2889/',
   ],
   [
-    '/problems/matchsticks-to-square/',
+    'matchsticks-to-square',
     'https://www.acwing.com/activity/content/problem/content/2890/',
   ],
   [
-    '/problems/ones-and-zeroes/',
+    'ones-and-zeroes',
     'https://www.acwing.com/activity/content/problem/content/2891/',
   ],
+  ['heaters', 'https://www.acwing.com/activity/content/problem/content/2892/'],
   [
-    '/problems/heaters/',
-    'https://www.acwing.com/activity/content/problem/content/2892/',
-  ],
-  [
-    '/problems/number-complement/',
+    'number-complement',
     'https://www.acwing.com/activity/content/problem/content/2893/',
   ],
   [
-    '/problems/total-hamming-distance/',
+    'total-hamming-distance',
     'https://www.acwing.com/activity/content/problem/content/2894/',
   ],
   [
-    '/problems/generate-random-point-in-a-circle/',
+    'generate-random-point-in-a-circle',
     'https://www.acwing.com/activity/content/problem/content/2895/',
   ],
   [
-    '/problems/largest-palindrome-product/',
+    'largest-palindrome-product',
     'https://www.acwing.com/activity/content/problem/content/2896/',
   ],
   [
-    '/problems/sliding-window-median/',
+    'sliding-window-median',
     'https://www.acwing.com/activity/content/problem/content/2897/',
   ],
   [
-    '/problems/magical-string/',
+    'magical-string',
     'https://www.acwing.com/activity/content/problem/content/2908/',
   ],
   [
-    '/problems/license-key-formatting/',
+    'license-key-formatting',
     'https://www.acwing.com/activity/content/problem/content/2909/',
   ],
   [
-    '/problems/smallest-good-base/',
+    'smallest-good-base',
     'https://www.acwing.com/activity/content/problem/content/2910/',
   ],
   [
-    '/problems/max-consecutive-ones/',
+    'max-consecutive-ones',
     'https://www.acwing.com/activity/content/problem/content/2911/',
   ],
   [
-    '/problems/predict-the-winner/',
+    'predict-the-winner',
     'https://www.acwing.com/activity/content/problem/content/2912/',
   ],
   [
-    '/problems/zuma-game/',
+    'zuma-game',
     'https://www.acwing.com/activity/content/problem/content/2913/',
   ],
   [
-    '/problems/increasing-subsequences/',
+    'increasing-subsequences',
     'https://www.acwing.com/activity/content/problem/content/2914/',
   ],
   [
-    '/problems/construct-the-rectangle/',
+    'construct-the-rectangle',
     'https://www.acwing.com/activity/content/problem/content/2915/',
   ],
   [
-    '/problems/reverse-pairs/',
+    'reverse-pairs',
     'https://www.acwing.com/activity/content/problem/content/2916/',
   ],
   [
-    '/problems/target-sum/',
+    'target-sum',
     'https://www.acwing.com/activity/content/problem/content/2917/',
   ],
   [
-    '/problems/teemo-attacking/',
+    'teemo-attacking',
     'https://www.acwing.com/activity/content/problem/content/2918/',
   ],
   [
-    '/problems/next-greater-element-i/',
+    'next-greater-element-i',
     'https://www.acwing.com/activity/content/problem/content/2919/',
   ],
   [
-    '/problems/random-point-in-non-overlapping-rectangles/',
+    'random-point-in-non-overlapping-rectangles',
     'https://www.acwing.com/activity/content/problem/content/2920/',
   ],
   [
-    '/problems/diagonal-traverse/',
+    'diagonal-traverse',
     'https://www.acwing.com/activity/content/problem/content/2921/',
   ],
   [
-    '/problems/keyboard-row/',
+    'keyboard-row',
     'https://www.acwing.com/activity/content/problem/content/2922/',
   ],
   [
-    '/problems/find-mode-in-binary-search-tree/',
+    'find-mode-in-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/2923/',
   ],
+  ['ipo', 'https://www.acwing.com/activity/content/problem/content/2924/'],
   [
-    '/problems/ipo/',
-    'https://www.acwing.com/activity/content/problem/content/2924/',
-  ],
-  [
-    '/problems/next-greater-element-ii/',
+    'next-greater-element-ii',
     'https://www.acwing.com/activity/content/problem/content/2925/',
   ],
+  ['base-7', 'https://www.acwing.com/activity/content/problem/content/2926/'],
   [
-    '/problems/base-7/',
-    'https://www.acwing.com/activity/content/problem/content/2926/',
-  ],
-  [
-    '/problems/relative-ranks/',
+    'relative-ranks',
     'https://www.acwing.com/activity/content/problem/content/2927/',
   ],
   [
-    '/problems/perfect-number/',
+    'perfect-number',
     'https://www.acwing.com/activity/content/problem/content/2943/',
   ],
   [
-    '/problems/most-frequent-subtree-sum/',
+    'most-frequent-subtree-sum',
     'https://www.acwing.com/activity/content/problem/content/2944/',
   ],
   [
-    '/problems/fibonacci-number/',
+    'fibonacci-number',
     'https://www.acwing.com/activity/content/problem/content/2945/',
   ],
   [
-    '/problems/find-bottom-left-tree-value/',
+    'find-bottom-left-tree-value',
     'https://www.acwing.com/activity/content/problem/content/2946/',
   ],
   [
-    '/problems/freedom-trail/',
+    'freedom-trail',
     'https://www.acwing.com/activity/content/problem/content/2947/',
   ],
   [
-    '/problems/find-largest-value-in-each-tree-row/',
+    'find-largest-value-in-each-tree-row',
     'https://www.acwing.com/activity/content/problem/content/2948/',
   ],
   [
-    '/problems/longest-palindromic-subsequence/',
+    'longest-palindromic-subsequence',
     'https://www.acwing.com/activity/content/problem/content/2949/',
   ],
   [
-    '/problems/super-washing-machines/',
+    'super-washing-machines',
     'https://www.acwing.com/activity/content/problem/content/2950/',
   ],
   [
-    '/problems/coin-change-2/',
+    'coin-change-2',
     'https://www.acwing.com/activity/content/problem/content/2951/',
   ],
   [
-    '/problems/random-flip-matrix/',
+    'random-flip-matrix',
     'https://www.acwing.com/activity/content/problem/content/2952/',
   ],
   [
-    '/problems/detect-capital/',
+    'detect-capital',
     'https://www.acwing.com/activity/content/problem/content/2953/',
   ],
   [
-    '/problems/longest-uncommon-subsequence-i/',
+    'longest-uncommon-subsequence-i',
     'https://www.acwing.com/activity/content/problem/content/2954/',
   ],
   [
-    '/problems/longest-uncommon-subsequence-ii/',
+    'longest-uncommon-subsequence-ii',
     'https://www.acwing.com/activity/content/problem/content/2955/',
   ],
   [
-    '/problems/continuous-subarray-sum/',
+    'continuous-subarray-sum',
     'https://www.acwing.com/activity/content/problem/content/2956/',
   ],
   [
-    '/problems/longest-word-in-dictionary-through-deleting/',
+    'longest-word-in-dictionary-through-deleting',
     'https://www.acwing.com/activity/content/problem/content/2957/',
   ],
   [
-    '/problems/contiguous-array/',
+    'contiguous-array',
     'https://www.acwing.com/activity/content/problem/content/2958/',
   ],
   [
-    '/problems/beautiful-arrangement/',
+    'beautiful-arrangement',
     'https://www.acwing.com/activity/content/problem/content/2959/',
   ],
   [
-    '/problems/random-pick-with-weight/',
+    'random-pick-with-weight',
     'https://www.acwing.com/activity/content/problem/content/2960/',
   ],
   [
-    '/problems/minesweeper/',
+    'minesweeper',
     'https://www.acwing.com/activity/content/problem/content/2961/',
   ],
   [
-    '/problems/minimum-absolute-difference-in-bst/',
+    'minimum-absolute-difference-in-bst',
     'https://www.acwing.com/activity/content/problem/content/2962/',
   ],
   [
-    '/problems/k-diff-pairs-in-an-array/',
+    'k-diff-pairs-in-an-array',
     'https://www.acwing.com/activity/content/problem/content/3032/',
   ],
   [
-    '/problems/encode-and-decode-tinyurl/',
+    'encode-and-decode-tinyurl',
     'https://www.acwing.com/activity/content/problem/content/3033/',
   ],
   [
-    '/problems/complex-number-multiplication/',
+    'complex-number-multiplication',
     'https://www.acwing.com/activity/content/problem/content/3034/',
   ],
   [
-    '/problems/convert-bst-to-greater-tree/',
+    'convert-bst-to-greater-tree',
     'https://www.acwing.com/activity/content/problem/content/3035/',
   ],
   [
-    '/problems/minimum-time-difference/',
+    'minimum-time-difference',
     'https://www.acwing.com/activity/content/problem/content/3036/',
   ],
   [
-    '/problems/single-element-in-a-sorted-array/',
+    'single-element-in-a-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/3037/',
   ],
   [
-    '/problems/reverse-string-ii/',
+    'reverse-string-ii',
     'https://www.acwing.com/activity/content/problem/content/3038/',
   ],
   [
-    '/problems/01-matrix/',
+    '01-matrix',
     'https://www.acwing.com/activity/content/problem/content/3039/',
   ],
   [
-    '/problems/diameter-of-binary-tree/',
+    'diameter-of-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3040/',
   ],
   [
-    '/problems/remove-boxes/',
+    'remove-boxes',
     'https://www.acwing.com/activity/content/problem/content/3041/',
   ],
   [
-    '/problems/number-of-provinces/',
+    'number-of-provinces',
     'https://www.acwing.com/activity/content/problem/content/3042/',
   ],
   [
-    '/problems/student-attendance-record-i/',
+    'student-attendance-record-i',
     'https://www.acwing.com/activity/content/problem/content/3043/',
   ],
   [
-    '/problems/student-attendance-record-ii/',
+    'student-attendance-record-ii',
     'https://www.acwing.com/activity/content/problem/content/3044/',
   ],
   [
-    '/problems/optimal-division/',
+    'optimal-division',
     'https://www.acwing.com/activity/content/problem/content/3045/',
   ],
   [
-    '/problems/brick-wall/',
+    'brick-wall',
     'https://www.acwing.com/activity/content/problem/content/3046/',
   ],
   [
-    '/problems/next-greater-element-iii/',
+    'next-greater-element-iii',
     'https://www.acwing.com/activity/content/problem/content/3047/',
   ],
   [
-    '/problems/reverse-words-in-a-string-iii/',
+    'reverse-words-in-a-string-iii',
     'https://www.acwing.com/activity/content/problem/content/3048/',
   ],
   [
-    '/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/',
+    'logical-or-of-two-binary-grids-represented-as-quad-trees',
     'https://www.acwing.com/activity/content/problem/content/3049/',
   ],
   [
-    '/problems/maximum-depth-of-n-ary-tree/',
+    'maximum-depth-of-n-ary-tree',
     'https://www.acwing.com/activity/content/problem/content/3050/',
   ],
   [
-    '/problems/subarray-sum-equals-k/',
+    'subarray-sum-equals-k',
     'https://www.acwing.com/activity/content/problem/content/3051/',
   ],
   [
-    '/problems/array-partition/',
+    'array-partition',
     'https://www.acwing.com/activity/content/problem/content/3161/',
   ],
   [
-    '/problems/binary-tree-tilt/',
+    'binary-tree-tilt',
     'https://www.acwing.com/activity/content/problem/content/3162/',
   ],
   [
-    '/problems/find-the-closest-palindrome/',
+    'find-the-closest-palindrome',
     'https://www.acwing.com/activity/content/problem/content/3163/',
   ],
   [
-    '/problems/array-nesting/',
+    'array-nesting',
     'https://www.acwing.com/activity/content/problem/content/3164/',
   ],
   [
-    '/problems/reshape-the-matrix/',
+    'reshape-the-matrix',
     'https://www.acwing.com/activity/content/problem/content/3165/',
   ],
   [
-    '/problems/permutation-in-string/',
+    'permutation-in-string',
     'https://www.acwing.com/activity/content/problem/content/3166/',
   ],
   [
-    '/problems/subtree-of-another-tree/',
+    'subtree-of-another-tree',
     'https://www.acwing.com/activity/content/problem/content/3167/',
   ],
   [
-    '/problems/distribute-candies/',
+    'distribute-candies',
     'https://www.acwing.com/activity/content/problem/content/3168/',
   ],
   [
-    '/problems/out-of-boundary-paths/',
+    'out-of-boundary-paths',
     'https://www.acwing.com/activity/content/problem/content/3169/',
   ],
   [
-    '/problems/shortest-unsorted-continuous-subarray/',
+    'shortest-unsorted-continuous-subarray',
     'https://www.acwing.com/activity/content/problem/content/3170/',
   ],
   [
-    '/problems/delete-operation-for-two-strings/',
+    'delete-operation-for-two-strings',
     'https://www.acwing.com/activity/content/problem/content/3171/',
   ],
   [
-    '/problems/erect-the-fence/',
+    'erect-the-fence',
     'https://www.acwing.com/activity/content/problem/content/3172/',
   ],
   [
-    '/problems/n-ary-tree-preorder-traversal/',
+    'n-ary-tree-preorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/3173/',
   ],
   [
-    '/problems/n-ary-tree-postorder-traversal/',
+    'n-ary-tree-postorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/3174/',
   ],
   [
-    '/problems/tag-validator/',
+    'tag-validator',
     'https://www.acwing.com/activity/content/problem/content/3175/',
   ],
   [
-    '/problems/fraction-addition-and-subtraction/',
+    'fraction-addition-and-subtraction',
     'https://www.acwing.com/activity/content/problem/content/3176/',
   ],
   [
-    '/problems/valid-square/',
+    'valid-square',
     'https://www.acwing.com/activity/content/problem/content/3177/',
   ],
   [
-    '/problems/longest-harmonious-subsequence/',
+    'longest-harmonious-subsequence',
     'https://www.acwing.com/activity/content/problem/content/3178/',
   ],
   [
-    '/problems/range-addition-ii/',
+    'range-addition-ii',
     'https://www.acwing.com/activity/content/problem/content/3179/',
   ],
   [
-    '/problems/minimum-index-sum-of-two-lists/',
+    'minimum-index-sum-of-two-lists',
     'https://www.acwing.com/activity/content/problem/content/3180/',
   ],
   [
-    '/problems/non-negative-integers-without-consecutive-ones/',
+    'non-negative-integers-without-consecutive-ones',
     'https://www.acwing.com/activity/content/problem/content/3193/',
   ],
   [
-    '/problems/can-place-flowers/',
+    'can-place-flowers',
     'https://www.acwing.com/activity/content/problem/content/3194/',
   ],
   [
-    '/problems/construct-string-from-binary-tree/',
+    'construct-string-from-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3195/',
   ],
   [
-    '/problems/find-duplicate-file-in-system/',
+    'find-duplicate-file-in-system',
     'https://www.acwing.com/activity/content/problem/content/3196/',
   ],
   [
-    '/problems/valid-triangle-number/',
+    'valid-triangle-number',
     'https://www.acwing.com/activity/content/problem/content/3197/',
   ],
   [
-    '/problems/merge-two-binary-trees/',
+    'merge-two-binary-trees',
     'https://www.acwing.com/activity/content/problem/content/3198/',
   ],
   [
-    '/problems/task-scheduler/',
+    'task-scheduler',
     'https://www.acwing.com/activity/content/problem/content/3199/',
   ],
   [
-    '/problems/design-circular-queue/',
+    'design-circular-queue',
     'https://www.acwing.com/activity/content/problem/content/3200/',
   ],
   [
-    '/problems/add-one-row-to-tree/',
+    'add-one-row-to-tree',
     'https://www.acwing.com/activity/content/problem/content/3201/',
   ],
   [
-    '/problems/maximum-product-of-three-numbers/',
+    'maximum-product-of-three-numbers',
     'https://www.acwing.com/activity/content/problem/content/3202/',
   ],
   [
-    '/problems/k-inverse-pairs-array/',
+    'k-inverse-pairs-array',
     'https://www.acwing.com/activity/content/problem/content/3216/',
   ],
   [
-    '/problems/course-schedule-iii/',
+    'course-schedule-iii',
     'https://www.acwing.com/activity/content/problem/content/3217/',
   ],
   [
-    '/problems/smallest-range-covering-elements-from-k-lists/',
+    'smallest-range-covering-elements-from-k-lists',
     'https://www.acwing.com/activity/content/problem/content/3218/',
   ],
   [
-    '/problems/sum-of-square-numbers/',
+    'sum-of-square-numbers',
     'https://www.acwing.com/activity/content/problem/content/3219/',
   ],
   [
-    '/problems/exclusive-time-of-functions/',
+    'exclusive-time-of-functions',
     'https://www.acwing.com/activity/content/problem/content/3220/',
   ],
   [
-    '/problems/average-of-levels-in-binary-tree/',
+    'average-of-levels-in-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3221/',
   ],
   [
-    '/problems/shopping-offers/',
+    'shopping-offers',
     'https://www.acwing.com/activity/content/problem/content/3222/',
   ],
   [
-    '/problems/decode-ways-ii/',
+    'decode-ways-ii',
     'https://www.acwing.com/activity/content/problem/content/3223/',
   ],
   [
-    '/problems/solve-the-equation/',
+    'solve-the-equation',
     'https://www.acwing.com/activity/content/problem/content/3224/',
   ],
   [
-    '/problems/design-circular-deque/',
+    'design-circular-deque',
     'https://www.acwing.com/activity/content/problem/content/3225/',
   ],
   [
-    '/problems/maximum-average-subarray-i/',
+    'maximum-average-subarray-i',
     'https://www.acwing.com/activity/content/problem/content/3226/',
   ],
   [
-    '/problems/set-mismatch/',
+    'set-mismatch',
     'https://www.acwing.com/activity/content/problem/content/3227/',
   ],
   [
-    '/problems/maximum-length-of-pair-chain/',
+    'maximum-length-of-pair-chain',
     'https://www.acwing.com/activity/content/problem/content/3228/',
   ],
   [
-    '/problems/palindromic-substrings/',
+    'palindromic-substrings',
     'https://www.acwing.com/activity/content/problem/content/3229/',
   ],
   [
-    '/problems/replace-words/',
+    'replace-words',
     'https://www.acwing.com/activity/content/problem/content/3230/',
   ],
   [
-    '/problems/dota2-senate/',
+    'dota2-senate',
     'https://www.acwing.com/activity/content/problem/content/3231/',
   ],
   [
-    '/problems/2-keys-keyboard/',
+    '2-keys-keyboard',
     'https://www.acwing.com/activity/content/problem/content/3232/',
   ],
   [
-    '/problems/find-duplicate-subtrees/',
+    'find-duplicate-subtrees',
     'https://www.acwing.com/activity/content/problem/content/3233/',
   ],
   [
-    '/problems/two-sum-iv-input-is-a-bst/',
+    'two-sum-iv-input-is-a-bst',
     'https://www.acwing.com/activity/content/problem/content/3234/',
   ],
   [
-    '/problems/maximum-binary-tree/',
+    'maximum-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3235/',
   ],
   [
-    '/problems/print-binary-tree/',
+    'print-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3260/',
   ],
   [
-    '/problems/robot-return-to-origin/',
+    'robot-return-to-origin',
     'https://www.acwing.com/activity/content/problem/content/3261/',
   ],
   [
-    '/problems/find-k-closest-elements/',
+    'find-k-closest-elements',
     'https://www.acwing.com/activity/content/problem/content/3262/',
   ],
   [
-    '/problems/split-array-into-consecutive-subsequences/',
+    'split-array-into-consecutive-subsequences',
     'https://www.acwing.com/activity/content/problem/content/3263/',
   ],
   [
-    '/problems/image-smoother/',
+    'image-smoother',
     'https://www.acwing.com/activity/content/problem/content/3264/',
   ],
   [
-    '/problems/maximum-width-of-binary-tree/',
+    'maximum-width-of-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3265/',
   ],
   [
-    '/problems/strange-printer/',
+    'strange-printer',
     'https://www.acwing.com/activity/content/problem/content/3266/',
   ],
   [
-    '/problems/non-decreasing-array/',
+    'non-decreasing-array',
     'https://www.acwing.com/activity/content/problem/content/3267/',
   ],
   [
-    '/problems/beautiful-arrangement-ii/',
+    'beautiful-arrangement-ii',
     'https://www.acwing.com/activity/content/problem/content/3268/',
   ],
   [
-    '/problems/kth-smallest-number-in-multiplication-table/',
+    'kth-smallest-number-in-multiplication-table',
     'https://www.acwing.com/activity/content/problem/content/3269/',
   ],
   [
-    '/problems/trim-a-binary-search-tree/',
+    'trim-a-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/3270/',
   ],
   [
-    '/problems/maximum-swap/',
+    'maximum-swap',
     'https://www.acwing.com/activity/content/problem/content/3271/',
   ],
   [
-    '/problems/second-minimum-node-in-a-binary-tree/',
+    'second-minimum-node-in-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3272/',
   ],
   [
-    '/problems/bulb-switcher-ii/',
+    'bulb-switcher-ii',
     'https://www.acwing.com/activity/content/problem/content/3273/',
   ],
   [
-    '/problems/number-of-longest-increasing-subsequence/',
+    'number-of-longest-increasing-subsequence',
     'https://www.acwing.com/activity/content/problem/content/3274/',
   ],
   [
-    '/problems/longest-continuous-increasing-subsequence/',
+    'longest-continuous-increasing-subsequence',
     'https://www.acwing.com/activity/content/problem/content/3275/',
   ],
   [
-    '/problems/cut-off-trees-for-golf-event/',
+    'cut-off-trees-for-golf-event',
     'https://www.acwing.com/activity/content/problem/content/3276/',
   ],
   [
-    '/problems/implement-magic-dictionary/',
+    'implement-magic-dictionary',
     'https://www.acwing.com/activity/content/problem/content/3277/',
   ],
   [
-    '/problems/map-sum-pairs/',
+    'map-sum-pairs',
     'https://www.acwing.com/activity/content/problem/content/3278/',
   ],
   [
-    '/problems/valid-parenthesis-string/',
+    'valid-parenthesis-string',
     'https://www.acwing.com/activity/content/problem/content/3279/',
   ],
+  ['24-game', 'https://www.acwing.com/activity/content/problem/content/3280/'],
   [
-    '/problems/24-game/',
-    'https://www.acwing.com/activity/content/problem/content/3280/',
-  ],
-  [
-    '/problems/valid-palindrome-ii/',
+    'valid-palindrome-ii',
     'https://www.acwing.com/activity/content/problem/content/3281/',
   ],
   [
-    '/problems/baseball-game/',
+    'baseball-game',
     'https://www.acwing.com/activity/content/problem/content/3282/',
   ],
   [
-    '/problems/redundant-connection/',
+    'redundant-connection',
     'https://www.acwing.com/activity/content/problem/content/3283/',
   ],
   [
-    '/problems/redundant-connection-ii/',
+    'redundant-connection-ii',
     'https://www.acwing.com/activity/content/problem/content/3284/',
   ],
   [
-    '/problems/repeated-string-match/',
+    'repeated-string-match',
     'https://www.acwing.com/activity/content/problem/content/3285/',
   ],
   [
-    '/problems/longest-univalue-path/',
+    'longest-univalue-path',
     'https://www.acwing.com/activity/content/problem/content/3286/',
   ],
   [
-    '/problems/knight-probability-in-chessboard/',
+    'knight-probability-in-chessboard',
     'https://www.acwing.com/activity/content/problem/content/3287/',
   ],
   [
-    '/problems/maximum-sum-of-3-non-overlapping-subarrays/',
+    'maximum-sum-of-3-non-overlapping-subarrays',
     'https://www.acwing.com/activity/content/problem/content/3288/',
   ],
   [
-    '/problems/employee-importance/',
+    'employee-importance',
     'https://www.acwing.com/activity/content/problem/content/3289/',
   ],
   [
-    '/problems/stickers-to-spell-word/',
+    'stickers-to-spell-word',
     'https://www.acwing.com/activity/content/problem/content/3290/',
   ],
   [
-    '/problems/top-k-frequent-words/',
+    'top-k-frequent-words',
     'https://www.acwing.com/activity/content/problem/content/3291/',
   ],
   [
-    '/problems/binary-number-with-alternating-bits/',
+    'binary-number-with-alternating-bits',
     'https://www.acwing.com/activity/content/problem/content/3292/',
   ],
   [
-    '/problems/max-area-of-island/',
+    'max-area-of-island',
     'https://www.acwing.com/activity/content/problem/content/3293/',
   ],
   [
-    '/problems/count-binary-substrings/',
+    'count-binary-substrings',
     'https://www.acwing.com/activity/content/problem/content/3294/',
   ],
   [
-    '/problems/degree-of-an-array/',
+    'degree-of-an-array',
     'https://www.acwing.com/activity/content/problem/content/3295/',
   ],
   [
-    '/problems/partition-to-k-equal-sum-subsets/',
+    'partition-to-k-equal-sum-subsets',
     'https://www.acwing.com/activity/content/problem/content/3296/',
   ],
   [
-    '/problems/falling-squares/',
+    'falling-squares',
     'https://www.acwing.com/activity/content/problem/content/3297/',
   ],
   [
-    '/problems/search-in-a-binary-search-tree/',
+    'search-in-a-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/3298/',
   ],
   [
-    '/problems/insert-into-a-binary-search-tree/',
+    'insert-into-a-binary-search-tree',
     'https://www.acwing.com/activity/content/problem/content/3299/',
   ],
   [
-    '/problems/kth-largest-element-in-a-stream/',
+    'kth-largest-element-in-a-stream',
     'https://www.acwing.com/activity/content/problem/content/3300/',
   ],
   [
-    '/problems/binary-search/',
+    'binary-search',
     'https://www.acwing.com/activity/content/problem/content/3301/',
   ],
   [
-    '/problems/design-hashset/',
+    'design-hashset',
     'https://www.acwing.com/activity/content/problem/content/3302/',
   ],
   [
-    '/problems/design-hashmap/',
+    'design-hashmap',
     'https://www.acwing.com/activity/content/problem/content/3303/',
   ],
   [
-    '/problems/design-linked-list/',
+    'design-linked-list',
     'https://www.acwing.com/activity/content/problem/content/3304/',
   ],
   [
-    '/problems/to-lower-case/',
+    'to-lower-case',
     'https://www.acwing.com/activity/content/problem/content/3305/',
   ],
   [
-    '/problems/random-pick-with-blacklist/',
+    'random-pick-with-blacklist',
     'https://www.acwing.com/activity/content/problem/content/3306/',
   ],
   [
-    '/problems/minimum-ascii-delete-sum-for-two-strings/',
+    'minimum-ascii-delete-sum-for-two-strings',
     'https://www.acwing.com/activity/content/problem/content/3307/',
   ],
   [
-    '/problems/subarray-product-less-than-k/',
+    'subarray-product-less-than-k',
     'https://www.acwing.com/activity/content/problem/content/3308/',
   ],
   [
-    '/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/',
+    'best-time-to-buy-and-sell-stock-with-transaction-fee',
     'https://www.acwing.com/activity/content/problem/content/3309/',
   ],
   [
-    '/problems/range-module/',
+    'range-module',
     'https://www.acwing.com/activity/content/problem/content/3310/',
   ],
   [
-    '/problems/1-bit-and-2-bit-characters/',
+    '1-bit-and-2-bit-characters',
     'https://www.acwing.com/activity/content/problem/content/3311/',
   ],
   [
-    '/problems/maximum-length-of-repeated-subarray/',
+    'maximum-length-of-repeated-subarray',
     'https://www.acwing.com/activity/content/problem/content/3312/',
   ],
   [
-    '/problems/find-k-th-smallest-pair-distance/',
+    'find-k-th-smallest-pair-distance',
     'https://www.acwing.com/activity/content/problem/content/3313/',
   ],
   [
-    '/problems/longest-word-in-dictionary/',
+    'longest-word-in-dictionary',
     'https://www.acwing.com/activity/content/problem/content/3314/',
   ],
   [
-    '/problems/accounts-merge/',
+    'accounts-merge',
     'https://www.acwing.com/activity/content/problem/content/3315/',
   ],
   [
-    '/problems/remove-comments/',
+    'remove-comments',
     'https://www.acwing.com/activity/content/problem/content/3316/',
   ],
   [
-    '/problems/find-pivot-index/',
+    'find-pivot-index',
     'https://www.acwing.com/activity/content/problem/content/3317/',
   ],
   [
-    '/problems/split-linked-list-in-parts/',
+    'split-linked-list-in-parts',
     'https://www.acwing.com/activity/content/problem/content/3318/',
   ],
   [
-    '/problems/number-of-atoms/',
+    'number-of-atoms',
     'https://www.acwing.com/activity/content/problem/content/3319/',
   ],
   [
-    '/problems/self-dividing-numbers/',
+    'self-dividing-numbers',
     'https://www.acwing.com/activity/content/problem/content/3320/',
   ],
   [
-    '/problems/my-calendar-i/',
+    'my-calendar-i',
     'https://www.acwing.com/activity/content/problem/content/3321/',
   ],
   [
-    '/problems/count-different-palindromic-subsequences/',
+    'count-different-palindromic-subsequences',
     'https://www.acwing.com/activity/content/problem/content/3322/',
   ],
   [
-    '/problems/my-calendar-ii/',
+    'my-calendar-ii',
     'https://www.acwing.com/activity/content/problem/content/3323/',
   ],
   [
-    '/problems/my-calendar-iii/',
+    'my-calendar-iii',
     'https://www.acwing.com/activity/content/problem/content/3324/',
   ],
   [
-    '/problems/flood-fill/',
+    'flood-fill',
     'https://www.acwing.com/activity/content/problem/content/3325/',
   ],
   [
-    '/problems/asteroid-collision/',
+    'asteroid-collision',
     'https://www.acwing.com/activity/content/problem/content/3326/',
   ],
   [
-    '/problems/parse-lisp-expression/',
+    'parse-lisp-expression',
     'https://www.acwing.com/activity/content/problem/content/3327/',
   ],
   [
-    '/problems/monotone-increasing-digits/',
+    'monotone-increasing-digits',
     'https://www.acwing.com/activity/content/problem/content/3328/',
   ],
   [
-    '/problems/daily-temperatures/',
+    'daily-temperatures',
     'https://www.acwing.com/activity/content/problem/content/3329/',
   ],
   [
-    '/problems/delete-and-earn/',
+    'delete-and-earn',
     'https://www.acwing.com/activity/content/problem/content/3330/',
   ],
   [
-    '/problems/cherry-pickup/',
+    'cherry-pickup',
     'https://www.acwing.com/activity/content/problem/content/3331/',
   ],
   [
-    '/problems/network-delay-time/',
+    'network-delay-time',
     'https://www.acwing.com/activity/content/problem/content/3332/',
   ],
   [
-    '/problems/find-smallest-letter-greater-than-target/',
+    'find-smallest-letter-greater-than-target',
     'https://www.acwing.com/activity/content/problem/content/3333/',
   ],
   [
-    '/problems/prefix-and-suffix-search/',
+    'prefix-and-suffix-search',
     'https://www.acwing.com/activity/content/problem/content/3334/',
   ],
   [
-    '/problems/min-cost-climbing-stairs/',
+    'min-cost-climbing-stairs',
     'https://www.acwing.com/activity/content/problem/content/3339/',
   ],
   [
-    '/problems/largest-number-at-least-twice-of-others/',
+    'largest-number-at-least-twice-of-others',
     'https://www.acwing.com/activity/content/problem/content/3335/',
   ],
   [
-    '/problems/shortest-completing-word/',
+    'shortest-completing-word',
     'https://www.acwing.com/activity/content/problem/content/3336/',
   ],
   [
-    '/problems/contain-virus/',
+    'contain-virus',
     'https://www.acwing.com/activity/content/problem/content/3337/',
   ],
   [
-    '/problems/open-the-lock/',
+    'open-the-lock',
     'https://www.acwing.com/activity/content/problem/content/3338/',
   ],
   [
-    '/problems/cracking-the-safe/',
+    'cracking-the-safe',
     'https://www.acwing.com/activity/content/problem/content/3667/',
   ],
   [
-    '/problems/reach-a-number/',
+    'reach-a-number',
     'https://www.acwing.com/activity/content/problem/content/3668/',
   ],
   [
-    '/problems/pyramid-transition-matrix/',
+    'pyramid-transition-matrix',
     'https://www.acwing.com/activity/content/problem/content/3669/',
   ],
   [
-    '/problems/set-intersection-size-at-least-two/',
+    'set-intersection-size-at-least-two',
     'https://www.acwing.com/activity/content/problem/content/3670/',
   ],
   [
-    '/problems/special-binary-string/',
+    'special-binary-string',
     'https://www.acwing.com/activity/content/problem/content/3671/',
   ],
   [
-    '/problems/prime-number-of-set-bits-in-binary-representation/',
+    'prime-number-of-set-bits-in-binary-representation',
     'https://www.acwing.com/activity/content/problem/content/3672/',
   ],
   [
-    '/problems/partition-labels/',
+    'partition-labels',
     'https://www.acwing.com/activity/content/problem/content/3673/',
   ],
   [
-    '/problems/largest-plus-sign/',
+    'largest-plus-sign',
     'https://www.acwing.com/activity/content/problem/content/3674/',
   ],
   [
-    '/problems/couples-holding-hands/',
+    'couples-holding-hands',
     'https://www.acwing.com/activity/content/problem/content/3675/',
   ],
   [
-    '/problems/toeplitz-matrix/',
+    'toeplitz-matrix',
     'https://www.acwing.com/activity/content/problem/content/3676/',
   ],
   [
-    '/problems/reorganize-string/',
+    'reorganize-string',
     'https://www.acwing.com/activity/content/problem/content/3677/',
   ],
   [
-    '/problems/max-chunks-to-make-sorted-ii/',
+    'max-chunks-to-make-sorted-ii',
     'https://www.acwing.com/activity/content/problem/content/3678/',
   ],
   [
-    '/problems/max-chunks-to-make-sorted/',
+    'max-chunks-to-make-sorted',
     'https://www.acwing.com/activity/content/problem/content/3679/',
   ],
   [
-    '/problems/basic-calculator-iv/',
+    'basic-calculator-iv',
     'https://www.acwing.com/activity/content/problem/content/3680/',
   ],
   [
-    '/problems/jewels-and-stones/',
+    'jewels-and-stones',
     'https://www.acwing.com/activity/content/problem/content/3681/',
   ],
   [
-    '/problems/sliding-puzzle/',
+    'sliding-puzzle',
     'https://www.acwing.com/activity/content/problem/content/3682/',
   ],
   [
-    '/problems/global-and-local-inversions/',
+    'global-and-local-inversions',
     'https://www.acwing.com/activity/content/problem/content/3683/',
   ],
   [
-    '/problems/swap-adjacent-in-lr-string/',
+    'swap-adjacent-in-lr-string',
     'https://www.acwing.com/activity/content/problem/content/3684/',
   ],
   [
-    '/problems/swim-in-rising-water/',
+    'swim-in-rising-water',
     'https://www.acwing.com/activity/content/problem/content/3685/',
   ],
   [
-    '/problems/k-th-symbol-in-grammar/',
+    'k-th-symbol-in-grammar',
     'https://www.acwing.com/activity/content/problem/content/3686/',
   ],
   [
-    '/problems/reaching-points/',
+    'reaching-points',
     'https://www.acwing.com/activity/content/problem/content/3755/',
   ],
   [
-    '/problems/rabbits-in-forest/',
+    'rabbits-in-forest',
     'https://www.acwing.com/activity/content/problem/content/3756/',
   ],
   [
-    '/problems/transform-to-chessboard/',
+    'transform-to-chessboard',
     'https://www.acwing.com/activity/content/problem/content/3757/',
   ],
   [
-    '/problems/minimum-distance-between-bst-nodes/',
+    'minimum-distance-between-bst-nodes',
     'https://www.acwing.com/activity/content/problem/content/3758/',
   ],
   [
-    '/problems/letter-case-permutation/',
+    'letter-case-permutation',
     'https://www.acwing.com/activity/content/problem/content/3759/',
   ],
   [
-    '/problems/is-graph-bipartite/',
+    'is-graph-bipartite',
     'https://www.acwing.com/activity/content/problem/content/3760/',
   ],
   [
-    '/problems/k-th-smallest-prime-fraction/',
+    'k-th-smallest-prime-fraction',
     'https://www.acwing.com/activity/content/problem/content/3761/',
   ],
   [
-    '/problems/cheapest-flights-within-k-stops/',
+    'cheapest-flights-within-k-stops',
     'https://www.acwing.com/activity/content/problem/content/3762/',
   ],
   [
-    '/problems/rotated-digits/',
+    'rotated-digits',
     'https://www.acwing.com/activity/content/problem/content/3763/',
   ],
   [
-    '/problems/escape-the-ghosts/',
+    'escape-the-ghosts',
     'https://www.acwing.com/activity/content/problem/content/3764/',
   ],
   [
-    '/problems/domino-and-tromino-tiling/',
+    'domino-and-tromino-tiling',
     'https://www.acwing.com/activity/content/problem/content/3765/',
   ],
   [
-    '/problems/custom-sort-string/',
+    'custom-sort-string',
     'https://www.acwing.com/activity/content/problem/content/3766/',
   ],
   [
-    '/problems/number-of-matching-subsequences/',
+    'number-of-matching-subsequences',
     'https://www.acwing.com/activity/content/problem/content/3767/',
   ],
   [
-    '/problems/preimage-size-of-factorial-zeroes-function/',
+    'preimage-size-of-factorial-zeroes-function',
     'https://www.acwing.com/activity/content/problem/content/3768/',
   ],
   [
-    '/problems/valid-tic-tac-toe-state/',
+    'valid-tic-tac-toe-state',
     'https://www.acwing.com/activity/content/problem/content/3769/',
   ],
   [
-    '/problems/number-of-subarrays-with-bounded-maximum/',
+    'number-of-subarrays-with-bounded-maximum',
     'https://www.acwing.com/activity/content/problem/content/3770/',
   ],
   [
-    '/problems/rotate-string/',
+    'rotate-string',
     'https://www.acwing.com/activity/content/problem/content/3771/',
   ],
   [
-    '/problems/all-paths-from-source-to-target/',
+    'all-paths-from-source-to-target',
     'https://www.acwing.com/activity/content/problem/content/3772/',
   ],
   [
-    '/problems/smallest-rotation-with-highest-score/',
+    'smallest-rotation-with-highest-score',
     'https://www.acwing.com/activity/content/problem/content/3773/',
   ],
   [
-    '/problems/champagne-tower/',
+    'champagne-tower',
     'https://www.acwing.com/activity/content/problem/content/3774/',
   ],
   [
-    '/problems/minimum-swaps-to-make-sequences-increasing/',
+    'minimum-swaps-to-make-sequences-increasing',
     'https://www.acwing.com/activity/content/problem/content/3819/',
   ],
   [
-    '/problems/find-eventual-safe-states/',
+    'find-eventual-safe-states',
     'https://www.acwing.com/activity/content/problem/content/3820/',
   ],
   [
-    '/problems/bricks-falling-when-hit/',
+    'bricks-falling-when-hit',
     'https://www.acwing.com/activity/content/problem/content/3821/',
   ],
   [
-    '/problems/unique-morse-code-words/',
+    'unique-morse-code-words',
     'https://www.acwing.com/activity/content/problem/content/3822/',
   ],
   [
-    '/problems/split-array-with-same-average/',
+    'split-array-with-same-average',
     'https://www.acwing.com/activity/content/problem/content/3823/',
   ],
   [
-    '/problems/number-of-lines-to-write-string/',
+    'number-of-lines-to-write-string',
     'https://www.acwing.com/activity/content/problem/content/3824/',
   ],
   [
-    '/problems/max-increase-to-keep-city-skyline/',
+    'max-increase-to-keep-city-skyline',
     'https://www.acwing.com/activity/content/problem/content/3825/',
   ],
   [
-    '/problems/soup-servings/',
+    'soup-servings',
     'https://www.acwing.com/activity/content/problem/content/3826/',
   ],
   [
-    '/problems/expressive-words/',
+    'expressive-words',
     'https://www.acwing.com/activity/content/problem/content/3827/',
   ],
   [
-    '/problems/chalkboard-xor-game/',
+    'chalkboard-xor-game',
     'https://www.acwing.com/activity/content/problem/content/3828/',
   ],
   [
-    '/problems/subdomain-visit-count/',
+    'subdomain-visit-count',
     'https://www.acwing.com/activity/content/problem/content/3829/',
   ],
   [
-    '/problems/largest-triangle-area/',
+    'largest-triangle-area',
     'https://www.acwing.com/activity/content/problem/content/3830/',
   ],
   [
-    '/problems/largest-sum-of-averages/',
+    'largest-sum-of-averages',
     'https://www.acwing.com/activity/content/problem/content/3831/',
   ],
   [
-    '/problems/binary-tree-pruning/',
+    'binary-tree-pruning',
     'https://www.acwing.com/activity/content/problem/content/3832/',
   ],
   [
-    '/problems/bus-routes/',
+    'bus-routes',
     'https://www.acwing.com/activity/content/problem/content/3833/',
   ],
   [
-    '/problems/ambiguous-coordinates/',
+    'ambiguous-coordinates',
     'https://www.acwing.com/activity/content/problem/content/3834/',
   ],
   [
-    '/problems/linked-list-components/',
+    'linked-list-components',
     'https://www.acwing.com/activity/content/problem/content/3835/',
   ],
+  ['race-car', 'https://www.acwing.com/activity/content/problem/content/3836/'],
   [
-    '/problems/race-car/',
-    'https://www.acwing.com/activity/content/problem/content/3836/',
-  ],
-  [
-    '/problems/most-common-word/',
+    'most-common-word',
     'https://www.acwing.com/activity/content/problem/content/3837/',
   ],
   [
-    '/problems/short-encoding-of-words/',
+    'short-encoding-of-words',
     'https://www.acwing.com/activity/content/problem/content/3838/',
   ],
   [
-    '/problems/shortest-distance-to-a-character/',
+    'shortest-distance-to-a-character',
     'https://www.acwing.com/activity/content/problem/content/3878/',
   ],
   [
-    '/problems/card-flipping-game/',
+    'card-flipping-game',
     'https://www.acwing.com/activity/content/problem/content/3879/',
   ],
   [
-    '/problems/binary-trees-with-factors/',
+    'binary-trees-with-factors',
     'https://www.acwing.com/activity/content/problem/content/3880/',
   ],
   [
-    '/problems/goat-latin/',
+    'goat-latin',
     'https://www.acwing.com/activity/content/problem/content/3881/',
   ],
   [
-    '/problems/friends-of-appropriate-ages/',
+    'friends-of-appropriate-ages',
     'https://www.acwing.com/activity/content/problem/content/3882/',
   ],
   [
-    '/problems/most-profit-assigning-work/',
+    'most-profit-assigning-work',
     'https://www.acwing.com/activity/content/problem/content/3883/',
   ],
   [
-    '/problems/making-a-large-island/',
+    'making-a-large-island',
     'https://www.acwing.com/activity/content/problem/content/3884/',
   ],
   [
-    '/problems/count-unique-characters-of-all-substrings-of-a-given-string/',
+    'count-unique-characters-of-all-substrings-of-a-given-string',
     'https://www.acwing.com/activity/content/problem/content/3885/',
   ],
   [
-    '/problems/consecutive-numbers-sum/',
+    'consecutive-numbers-sum',
     'https://www.acwing.com/activity/content/problem/content/3886/',
   ],
   [
-    '/problems/positions-of-large-groups/',
+    'positions-of-large-groups',
     'https://www.acwing.com/activity/content/problem/content/3887/',
   ],
   [
-    '/problems/masking-personal-information/',
+    'masking-personal-information',
     'https://www.acwing.com/activity/content/problem/content/3935/',
   ],
   [
-    '/problems/flipping-an-image/',
+    'flipping-an-image',
     'https://www.acwing.com/activity/content/problem/content/3936/',
   ],
   [
-    '/problems/find-and-replace-in-string/',
+    'find-and-replace-in-string',
     'https://www.acwing.com/activity/content/problem/content/3937/',
   ],
   [
-    '/problems/sum-of-distances-in-tree/',
+    'sum-of-distances-in-tree',
     'https://www.acwing.com/activity/content/problem/content/3938/',
   ],
   [
-    '/problems/image-overlap/',
+    'image-overlap',
     'https://www.acwing.com/activity/content/problem/content/3939/',
   ],
   [
-    '/problems/rectangle-overlap/',
+    'rectangle-overlap',
     'https://www.acwing.com/activity/content/problem/content/3940/',
   ],
   [
-    '/problems/new-21-game/',
+    'new-21-game',
     'https://www.acwing.com/activity/content/problem/content/3941/',
   ],
   [
-    '/problems/push-dominoes/',
+    'push-dominoes',
     'https://www.acwing.com/activity/content/problem/content/3942/',
   ],
   [
-    '/problems/similar-string-groups/',
+    'similar-string-groups',
     'https://www.acwing.com/activity/content/problem/content/3943/',
   ],
   [
-    '/problems/magic-squares-in-grid/',
+    'magic-squares-in-grid',
     'https://www.acwing.com/activity/content/problem/content/3944/',
   ],
   [
-    '/problems/keys-and-rooms/',
+    'keys-and-rooms',
     'https://www.acwing.com/activity/content/problem/content/3945/',
   ],
   [
-    '/problems/split-array-into-fibonacci-sequence/',
+    'split-array-into-fibonacci-sequence',
     'https://www.acwing.com/activity/content/problem/content/3946/',
   ],
   [
-    '/problems/guess-the-word/',
+    'guess-the-word',
     'https://www.acwing.com/activity/content/problem/content/3947/',
   ],
   [
-    '/problems/backspace-string-compare/',
+    'backspace-string-compare',
     'https://www.acwing.com/activity/content/problem/content/3948/',
   ],
   [
-    '/problems/longest-mountain-in-array/',
+    'longest-mountain-in-array',
     'https://www.acwing.com/activity/content/problem/content/3949/',
   ],
   [
-    '/problems/hand-of-straights/',
+    'hand-of-straights',
     'https://www.acwing.com/activity/content/problem/content/3950/',
   ],
   [
-    '/problems/shortest-path-visiting-all-nodes/',
+    'shortest-path-visiting-all-nodes',
     'https://www.acwing.com/activity/content/problem/content/3951/',
   ],
   [
-    '/problems/shifting-letters/',
+    'shifting-letters',
     'https://www.acwing.com/activity/content/problem/content/3952/',
   ],
   [
-    '/problems/maximize-distance-to-closest-person/',
+    'maximize-distance-to-closest-person',
     'https://www.acwing.com/activity/content/problem/content/3953/',
   ],
   [
-    '/problems/rectangle-area-ii/',
+    'rectangle-area-ii',
     'https://www.acwing.com/activity/content/problem/content/3954/',
   ],
   [
-    '/problems/loud-and-rich/',
+    'loud-and-rich',
     'https://www.acwing.com/activity/content/problem/content/3963/',
   ],
   [
-    '/problems/peak-index-in-a-mountain-array/',
+    'peak-index-in-a-mountain-array',
     'https://www.acwing.com/activity/content/problem/content/3964/',
   ],
   [
-    '/problems/car-fleet/',
+    'car-fleet',
     'https://www.acwing.com/activity/content/problem/content/3965/',
   ],
   [
-    '/problems/k-similar-strings/',
+    'k-similar-strings',
     'https://www.acwing.com/activity/content/problem/content/3966/',
   ],
   [
-    '/problems/exam-room/',
+    'exam-room',
     'https://www.acwing.com/activity/content/problem/content/3967/',
   ],
   [
-    '/problems/score-of-parentheses/',
+    'score-of-parentheses',
     'https://www.acwing.com/activity/content/problem/content/3968/',
   ],
   [
-    '/problems/minimum-cost-to-hire-k-workers/',
+    'minimum-cost-to-hire-k-workers',
     'https://www.acwing.com/activity/content/problem/content/3969/',
   ],
   [
-    '/problems/mirror-reflection/',
+    'mirror-reflection',
     'https://www.acwing.com/activity/content/problem/content/3970/',
   ],
   [
-    '/problems/buddy-strings/',
+    'buddy-strings',
     'https://www.acwing.com/activity/content/problem/content/3971/',
   ],
   [
-    '/problems/lemonade-change/',
+    'lemonade-change',
     'https://www.acwing.com/activity/content/problem/content/3972/',
   ],
   [
-    '/problems/score-after-flipping-matrix/',
+    'score-after-flipping-matrix',
     'https://www.acwing.com/activity/content/problem/content/3973/',
   ],
   [
-    '/problems/shortest-subarray-with-sum-at-least-k/',
+    'shortest-subarray-with-sum-at-least-k',
     'https://www.acwing.com/activity/content/problem/content/3974/',
   ],
   [
-    '/problems/all-nodes-distance-k-in-binary-tree/',
+    'all-nodes-distance-k-in-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/3975/',
   ],
   [
-    '/problems/shortest-path-to-get-all-keys/',
+    'shortest-path-to-get-all-keys',
     'https://www.acwing.com/activity/content/problem/content/3976/',
   ],
   [
-    '/problems/smallest-subtree-with-all-the-deepest-nodes/',
+    'smallest-subtree-with-all-the-deepest-nodes',
     'https://www.acwing.com/activity/content/problem/content/3977/',
   ],
   [
-    '/problems/prime-palindrome/',
+    'prime-palindrome',
     'https://www.acwing.com/activity/content/problem/content/3978/',
   ],
   [
-    '/problems/transpose-matrix/',
+    'transpose-matrix',
     'https://www.acwing.com/activity/content/problem/content/3979/',
   ],
   [
-    '/problems/binary-gap/',
+    'binary-gap',
     'https://www.acwing.com/activity/content/problem/content/3980/',
   ],
   [
-    '/problems/reordered-power-of-2/',
+    'reordered-power-of-2',
     'https://www.acwing.com/activity/content/problem/content/3981/',
   ],
   [
-    '/problems/advantage-shuffle/',
+    'advantage-shuffle',
     'https://www.acwing.com/activity/content/problem/content/3982/',
   ],
   [
-    '/problems/minimum-number-of-refueling-stops/',
+    'minimum-number-of-refueling-stops',
     'https://www.acwing.com/activity/content/problem/content/4008/',
   ],
   [
-    '/problems/leaf-similar-trees/',
+    'leaf-similar-trees',
     'https://www.acwing.com/activity/content/problem/content/4009/',
   ],
   [
-    '/problems/length-of-longest-fibonacci-subsequence/',
+    'length-of-longest-fibonacci-subsequence',
     'https://www.acwing.com/activity/content/problem/content/4010/',
   ],
   [
-    '/problems/walking-robot-simulation/',
+    'walking-robot-simulation',
     'https://www.acwing.com/activity/content/problem/content/4011/',
   ],
   [
-    '/problems/koko-eating-bananas/',
+    'koko-eating-bananas',
     'https://www.acwing.com/activity/content/problem/content/4012/',
   ],
   [
-    '/problems/middle-of-the-linked-list/',
+    'middle-of-the-linked-list',
     'https://www.acwing.com/activity/content/problem/content/4013/',
   ],
   [
-    '/problems/stone-game/',
+    'stone-game',
     'https://www.acwing.com/activity/content/problem/content/4014/',
   ],
   [
-    '/problems/nth-magical-number/',
+    'nth-magical-number',
     'https://www.acwing.com/activity/content/problem/content/4015/',
   ],
   [
-    '/problems/profitable-schemes/',
+    'profitable-schemes',
     'https://www.acwing.com/activity/content/problem/content/4016/',
   ],
   [
-    '/problems/decoded-string-at-index/',
+    'decoded-string-at-index',
     'https://www.acwing.com/activity/content/problem/content/4017/',
   ],
   [
-    '/problems/boats-to-save-people/',
+    'boats-to-save-people',
     'https://www.acwing.com/activity/content/problem/content/4018/',
   ],
   [
-    '/problems/reachable-nodes-in-subdivided-graph/',
+    'reachable-nodes-in-subdivided-graph',
     'https://www.acwing.com/activity/content/problem/content/4019/',
   ],
   [
-    '/problems/projection-area-of-3d-shapes/',
+    'projection-area-of-3d-shapes',
     'https://www.acwing.com/activity/content/problem/content/4020/',
   ],
   [
-    '/problems/uncommon-words-from-two-sentences/',
+    'uncommon-words-from-two-sentences',
     'https://www.acwing.com/activity/content/problem/content/4021/',
   ],
   [
-    '/problems/spiral-matrix-iii/',
+    'spiral-matrix-iii',
     'https://www.acwing.com/activity/content/problem/content/4022/',
   ],
   [
-    '/problems/possible-bipartition/',
+    'possible-bipartition',
     'https://www.acwing.com/activity/content/problem/content/4023/',
   ],
   [
-    '/problems/super-egg-drop/',
+    'super-egg-drop',
     'https://www.acwing.com/activity/content/problem/content/4024/',
   ],
   [
-    '/problems/fair-candy-swap/',
+    'fair-candy-swap',
     'https://www.acwing.com/activity/content/problem/content/4025/',
   ],
   [
-    '/problems/construct-binary-tree-from-preorder-and-postorder-traversal/',
+    'construct-binary-tree-from-preorder-and-postorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/4026/',
   ],
   [
-    '/problems/find-and-replace-pattern/',
+    'find-and-replace-pattern',
     'https://www.acwing.com/activity/content/problem/content/4027/',
   ],
   [
-    '/problems/sum-of-subsequence-widths/',
+    'sum-of-subsequence-widths',
     'https://www.acwing.com/activity/content/problem/content/4126/',
   ],
   [
-    '/problems/surface-area-of-3d-shapes/',
+    'surface-area-of-3d-shapes',
     'https://www.acwing.com/activity/content/problem/content/4127/',
   ],
   [
-    '/problems/groups-of-special-equivalent-strings/',
+    'groups-of-special-equivalent-strings',
     'https://www.acwing.com/activity/content/problem/content/4128/',
   ],
   [
-    '/problems/all-possible-full-binary-trees/',
+    'all-possible-full-binary-trees',
     'https://www.acwing.com/activity/content/problem/content/4129/',
   ],
   [
-    '/problems/maximum-frequency-stack/',
+    'maximum-frequency-stack',
     'https://www.acwing.com/activity/content/problem/content/4130/',
   ],
   [
-    '/problems/monotonic-array/',
+    'monotonic-array',
     'https://www.acwing.com/activity/content/problem/content/4131/',
   ],
   [
-    '/problems/increasing-order-search-tree/',
+    'increasing-order-search-tree',
     'https://www.acwing.com/activity/content/problem/content/4132/',
   ],
   [
-    '/problems/bitwise-ors-of-subarrays/',
+    'bitwise-ors-of-subarrays',
     'https://www.acwing.com/activity/content/problem/content/4133/',
   ],
   [
-    '/problems/orderly-queue/',
+    'orderly-queue',
     'https://www.acwing.com/activity/content/problem/content/4134/',
   ],
   [
-    '/problems/rle-iterator/',
+    'rle-iterator',
     'https://www.acwing.com/activity/content/problem/content/4135/',
   ],
   [
-    '/problems/online-stock-span/',
+    'online-stock-span',
     'https://www.acwing.com/activity/content/problem/content/4152/',
   ],
   [
-    '/problems/numbers-at-most-n-given-digit-set/',
+    'numbers-at-most-n-given-digit-set',
     'https://www.acwing.com/activity/content/problem/content/4153/',
   ],
   [
-    '/problems/valid-permutations-for-di-sequence/',
+    'valid-permutations-for-di-sequence',
     'https://www.acwing.com/activity/content/problem/content/4154/',
   ],
   [
-    '/problems/fruit-into-baskets/',
+    'fruit-into-baskets',
     'https://www.acwing.com/activity/content/problem/content/4155/',
   ],
   [
-    '/problems/sort-array-by-parity/',
+    'sort-array-by-parity',
     'https://www.acwing.com/activity/content/problem/content/4156/',
   ],
   [
-    '/problems/super-palindromes/',
+    'super-palindromes',
     'https://www.acwing.com/activity/content/problem/content/4157/',
   ],
   [
-    '/problems/sum-of-subarray-minimums/',
+    'sum-of-subarray-minimums',
     'https://www.acwing.com/activity/content/problem/content/4158/',
   ],
   [
-    '/problems/smallest-range-i/',
+    'smallest-range-i',
     'https://www.acwing.com/activity/content/problem/content/4159/',
   ],
   [
-    '/problems/snakes-and-ladders/',
+    'snakes-and-ladders',
     'https://www.acwing.com/activity/content/problem/content/4160/',
   ],
   [
-    '/problems/smallest-range-ii/',
+    'smallest-range-ii',
     'https://www.acwing.com/activity/content/problem/content/4161/',
   ],
   [
-    '/problems/online-election/',
+    'online-election',
     'https://www.acwing.com/activity/content/problem/content/4162/',
   ],
   [
-    '/problems/sort-an-array/',
+    'sort-an-array',
     'https://www.acwing.com/activity/content/problem/content/4163/',
   ],
   [
-    '/problems/cat-and-mouse/',
+    'cat-and-mouse',
     'https://www.acwing.com/activity/content/problem/content/4164/',
   ],
   [
-    '/problems/x-of-a-kind-in-a-deck-of-cards/',
+    'x-of-a-kind-in-a-deck-of-cards',
     'https://www.acwing.com/activity/content/problem/content/4165/',
   ],
   [
-    '/problems/partition-array-into-disjoint-intervals/',
+    'partition-array-into-disjoint-intervals',
     'https://www.acwing.com/activity/content/problem/content/4166/',
   ],
   [
-    '/problems/word-subsets/',
+    'word-subsets',
     'https://www.acwing.com/activity/content/problem/content/4167/',
   ],
   [
-    '/problems/reverse-only-letters/',
+    'reverse-only-letters',
     'https://www.acwing.com/activity/content/problem/content/4168/',
   ],
   [
-    '/problems/maximum-sum-circular-subarray/',
+    'maximum-sum-circular-subarray',
     'https://www.acwing.com/activity/content/problem/content/4169/',
   ],
   [
-    '/problems/complete-binary-tree-inserter/',
+    'complete-binary-tree-inserter',
     'https://www.acwing.com/activity/content/problem/content/4170/',
   ],
   [
-    '/problems/number-of-music-playlists/',
+    'number-of-music-playlists',
     'https://www.acwing.com/activity/content/problem/content/4171/',
   ],
   [
-    '/problems/minimum-add-to-make-parentheses-valid/',
+    'minimum-add-to-make-parentheses-valid',
     'https://www.acwing.com/activity/content/problem/content/4182/',
   ],
   [
-    '/problems/sort-array-by-parity-ii/',
+    'sort-array-by-parity-ii',
     'https://www.acwing.com/activity/content/problem/content/4183/',
   ],
   [
-    '/problems/3sum-with-multiplicity/',
+    '3sum-with-multiplicity',
     'https://www.acwing.com/activity/content/problem/content/4184/',
   ],
   [
-    '/problems/minimize-malware-spread/',
+    'minimize-malware-spread',
     'https://www.acwing.com/activity/content/problem/content/4185/',
   ],
   [
-    '/problems/long-pressed-name/',
+    'long-pressed-name',
     'https://www.acwing.com/activity/content/problem/content/4186/',
   ],
   [
-    '/problems/flip-string-to-monotone-increasing/',
+    'flip-string-to-monotone-increasing',
     'https://www.acwing.com/activity/content/problem/content/4187/',
   ],
   [
-    '/problems/three-equal-parts/',
+    'three-equal-parts',
     'https://www.acwing.com/activity/content/problem/content/4188/',
   ],
   [
-    '/problems/minimize-malware-spread-ii/',
+    'minimize-malware-spread-ii',
     'https://www.acwing.com/activity/content/problem/content/4189/',
   ],
   [
-    '/problems/unique-email-addresses/',
+    'unique-email-addresses',
     'https://www.acwing.com/activity/content/problem/content/4190/',
   ],
   [
-    '/problems/binary-subarrays-with-sum/',
+    'binary-subarrays-with-sum',
     'https://www.acwing.com/activity/content/problem/content/4191/',
   ],
   [
-    '/problems/minimum-falling-path-sum/',
+    'minimum-falling-path-sum',
     'https://www.acwing.com/activity/content/problem/content/4208/',
   ],
   [
-    '/problems/beautiful-array/',
+    'beautiful-array',
     'https://www.acwing.com/activity/content/problem/content/4209/',
   ],
   [
-    '/problems/number-of-recent-calls/',
+    'number-of-recent-calls',
     'https://www.acwing.com/activity/content/problem/content/4210/',
   ],
   [
-    '/problems/shortest-bridge/',
+    'shortest-bridge',
     'https://www.acwing.com/activity/content/problem/content/4211/',
   ],
   [
-    '/problems/knight-dialer/',
+    'knight-dialer',
     'https://www.acwing.com/activity/content/problem/content/4212/',
   ],
   [
-    '/problems/stamping-the-sequence/',
+    'stamping-the-sequence',
     'https://www.acwing.com/activity/content/problem/content/4213/',
   ],
   [
-    '/problems/reorder-data-in-log-files/',
+    'reorder-data-in-log-files',
     'https://www.acwing.com/activity/content/problem/content/4214/',
   ],
   [
-    '/problems/range-sum-of-bst/',
+    'range-sum-of-bst',
     'https://www.acwing.com/activity/content/problem/content/4215/',
   ],
   [
-    '/problems/minimum-area-rectangle/',
+    'minimum-area-rectangle',
     'https://www.acwing.com/activity/content/problem/content/4216/',
   ],
   [
-    '/problems/distinct-subsequences-ii/',
+    'distinct-subsequences-ii',
     'https://www.acwing.com/activity/content/problem/content/4217/',
   ],
   [
-    '/problems/valid-mountain-array/',
+    'valid-mountain-array',
     'https://www.acwing.com/activity/content/problem/content/4218/',
   ],
   [
-    '/problems/di-string-match/',
+    'di-string-match',
     'https://www.acwing.com/activity/content/problem/content/4219/',
   ],
   [
-    '/problems/find-the-shortest-superstring/',
+    'find-the-shortest-superstring',
     'https://www.acwing.com/activity/content/problem/content/4220/',
   ],
   [
-    '/problems/delete-columns-to-make-sorted/',
+    'delete-columns-to-make-sorted',
     'https://www.acwing.com/activity/content/problem/content/4221/',
   ],
   [
-    '/problems/minimum-increment-to-make-array-unique/',
+    'minimum-increment-to-make-array-unique',
     'https://www.acwing.com/activity/content/problem/content/4222/',
   ],
   [
-    '/problems/validate-stack-sequences/',
+    'validate-stack-sequences',
     'https://www.acwing.com/activity/content/problem/content/4223/',
   ],
   [
-    '/problems/most-stones-removed-with-same-row-or-column/',
+    'most-stones-removed-with-same-row-or-column',
     'https://www.acwing.com/activity/content/problem/content/4224/',
   ],
   [
-    '/problems/bag-of-tokens/',
+    'bag-of-tokens',
     'https://www.acwing.com/activity/content/problem/content/4225/',
   ],
   [
-    '/problems/largest-time-for-given-digits/',
+    'largest-time-for-given-digits',
     'https://www.acwing.com/activity/content/problem/content/4226/',
   ],
   [
-    '/problems/reveal-cards-in-increasing-order/',
+    'reveal-cards-in-increasing-order',
     'https://www.acwing.com/activity/content/problem/content/4227/',
   ],
   [
-    '/problems/flip-equivalent-binary-trees/',
+    'flip-equivalent-binary-trees',
     'https://www.acwing.com/activity/content/problem/content/4239/',
   ],
   [
-    '/problems/largest-component-size-by-common-factor/',
+    'largest-component-size-by-common-factor',
     'https://www.acwing.com/activity/content/problem/content/4240/',
   ],
   [
-    '/problems/verifying-an-alien-dictionary/',
+    'verifying-an-alien-dictionary',
     'https://www.acwing.com/activity/content/problem/content/4241/',
   ],
   [
-    '/problems/array-of-doubled-pairs/',
+    'array-of-doubled-pairs',
     'https://www.acwing.com/activity/content/problem/content/4242/',
   ],
   [
-    '/problems/delete-columns-to-make-sorted-ii/',
+    'delete-columns-to-make-sorted-ii',
     'https://www.acwing.com/activity/content/problem/content/4243/',
   ],
   [
-    '/problems/tallest-billboard/',
+    'tallest-billboard',
     'https://www.acwing.com/activity/content/problem/content/4244/',
   ],
   [
-    '/problems/prison-cells-after-n-days/',
+    'prison-cells-after-n-days',
     'https://www.acwing.com/activity/content/problem/content/4245/',
   ],
   [
-    '/problems/check-completeness-of-a-binary-tree/',
+    'check-completeness-of-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/4246/',
   ],
   [
-    '/problems/regions-cut-by-slashes/',
+    'regions-cut-by-slashes',
     'https://www.acwing.com/activity/content/problem/content/4247/',
   ],
   [
-    '/problems/delete-columns-to-make-sorted-iii/',
+    'delete-columns-to-make-sorted-iii',
     'https://www.acwing.com/activity/content/problem/content/4248/',
   ],
   [
-    '/problems/n-repeated-element-in-size-2n-array/',
+    'n-repeated-element-in-size-2n-array',
     'https://www.acwing.com/activity/content/problem/content/4265/',
   ],
   [
-    '/problems/maximum-width-ramp/',
+    'maximum-width-ramp',
     'https://www.acwing.com/activity/content/problem/content/4266/',
   ],
   [
-    '/problems/minimum-area-rectangle-ii/',
+    'minimum-area-rectangle-ii',
     'https://www.acwing.com/activity/content/problem/content/4267/',
   ],
   [
-    '/problems/least-operators-to-express-number/',
+    'least-operators-to-express-number',
     'https://www.acwing.com/activity/content/problem/content/4268/',
   ],
   [
-    '/problems/univalued-binary-tree/',
+    'univalued-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/4269/',
   ],
   [
-    '/problems/vowel-spellchecker/',
+    'vowel-spellchecker',
     'https://www.acwing.com/activity/content/problem/content/4270/',
   ],
   [
-    '/problems/numbers-with-same-consecutive-differences/',
+    'numbers-with-same-consecutive-differences',
     'https://www.acwing.com/activity/content/problem/content/4271/',
   ],
   [
-    '/problems/binary-tree-cameras/',
+    'binary-tree-cameras',
     'https://www.acwing.com/activity/content/problem/content/4272/',
   ],
   [
-    '/problems/pancake-sorting/',
+    'pancake-sorting',
     'https://www.acwing.com/activity/content/problem/content/4273/',
   ],
   [
-    '/problems/powerful-integers/',
+    'powerful-integers',
     'https://www.acwing.com/activity/content/problem/content/4274/',
   ],
   [
-    '/problems/flip-binary-tree-to-match-preorder-traversal/',
+    'flip-binary-tree-to-match-preorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/4275/',
   ],
   [
-    '/problems/equal-rational-numbers/',
+    'equal-rational-numbers',
     'https://www.acwing.com/activity/content/problem/content/4276/',
   ],
   [
-    '/problems/k-closest-points-to-origin/',
+    'k-closest-points-to-origin',
     'https://www.acwing.com/activity/content/problem/content/4277/',
   ],
   [
-    '/problems/subarray-sums-divisible-by-k/',
+    'subarray-sums-divisible-by-k',
     'https://www.acwing.com/activity/content/problem/content/4278/',
   ],
   [
-    '/problems/odd-even-jump/',
+    'odd-even-jump',
     'https://www.acwing.com/activity/content/problem/content/4279/',
   ],
   [
-    '/problems/largest-perimeter-triangle/',
+    'largest-perimeter-triangle',
     'https://www.acwing.com/activity/content/problem/content/4280/',
   ],
   [
-    '/problems/squares-of-a-sorted-array/',
+    'squares-of-a-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/4281/',
   ],
   [
-    '/problems/longest-turbulent-subarray/',
+    'longest-turbulent-subarray',
     'https://www.acwing.com/activity/content/problem/content/4282/',
   ],
   [
-    '/problems/distribute-coins-in-binary-tree/',
+    'distribute-coins-in-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/4283/',
   ],
   [
-    '/problems/unique-paths-iii/',
+    'unique-paths-iii',
     'https://www.acwing.com/activity/content/problem/content/4284/',
   ],
   [
-    '/problems/time-based-key-value-store/',
+    'time-based-key-value-store',
     'https://www.acwing.com/activity/content/problem/content/4306/',
   ],
   [
-    '/problems/triples-with-bitwise-and-equal-to-zero/',
+    'triples-with-bitwise-and-equal-to-zero',
     'https://www.acwing.com/activity/content/problem/content/4307/',
   ],
   [
-    '/problems/minimum-cost-for-tickets/',
+    'minimum-cost-for-tickets',
     'https://www.acwing.com/activity/content/problem/content/4308/',
   ],
   [
-    '/problems/string-without-aaa-or-bbb/',
+    'string-without-aaa-or-bbb',
     'https://www.acwing.com/activity/content/problem/content/4309/',
   ],
   [
-    '/problems/sum-of-even-numbers-after-queries/',
+    'sum-of-even-numbers-after-queries',
     'https://www.acwing.com/activity/content/problem/content/4310/',
   ],
   [
-    '/problems/interval-list-intersections/',
+    'interval-list-intersections',
     'https://www.acwing.com/activity/content/problem/content/4311/',
   ],
   [
-    '/problems/vertical-order-traversal-of-a-binary-tree/',
+    'vertical-order-traversal-of-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/4312/',
   ],
   [
-    '/problems/smallest-string-starting-from-leaf/',
+    'smallest-string-starting-from-leaf',
     'https://www.acwing.com/activity/content/problem/content/4313/',
   ],
   [
-    '/problems/add-to-array-form-of-integer/',
+    'add-to-array-form-of-integer',
     'https://www.acwing.com/activity/content/problem/content/4314/',
   ],
   [
-    '/problems/satisfiability-of-equality-equations/',
+    'satisfiability-of-equality-equations',
     'https://www.acwing.com/activity/content/problem/content/4315/',
   ],
   [
-    '/problems/broken-calculator/',
+    'broken-calculator',
     'https://www.acwing.com/activity/content/problem/content/5730/',
   ],
   [
-    '/problems/subarrays-with-k-different-integers/',
+    'subarrays-with-k-different-integers',
     'https://www.acwing.com/activity/content/problem/content/5731/',
   ],
   [
-    '/problems/cousins-in-binary-tree/',
+    'cousins-in-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/5732/',
   ],
   [
-    '/problems/rotting-oranges/',
+    'rotting-oranges',
     'https://www.acwing.com/activity/content/problem/content/5733/',
   ],
   [
-    '/problems/minimum-number-of-k-consecutive-bit-flips/',
+    'minimum-number-of-k-consecutive-bit-flips',
     'https://www.acwing.com/activity/content/problem/content/5734/',
   ],
   [
-    '/problems/number-of-squareful-arrays/',
+    'number-of-squareful-arrays',
     'https://www.acwing.com/activity/content/problem/content/5735/',
   ],
   [
-    '/problems/find-the-town-judge/',
+    'find-the-town-judge',
     'https://www.acwing.com/activity/content/problem/content/5736/',
   ],
   [
-    '/problems/maximum-binary-tree-ii/',
+    'maximum-binary-tree-ii',
     'https://www.acwing.com/activity/content/problem/content/5737/',
   ],
   [
-    '/problems/available-captures-for-rook/',
+    'available-captures-for-rook',
     'https://www.acwing.com/activity/content/problem/content/5738/',
   ],
   [
-    '/problems/minimum-cost-to-merge-stones/',
+    'minimum-cost-to-merge-stones',
     'https://www.acwing.com/activity/content/problem/content/5739/',
   ],
   [
-    '/problems/grid-illumination/',
+    'grid-illumination',
     'https://www.acwing.com/activity/content/problem/content/5748/',
   ],
   [
-    '/problems/find-common-characters/',
+    'find-common-characters',
     'https://www.acwing.com/activity/content/problem/content/5749/',
   ],
   [
-    '/problems/check-if-word-is-valid-after-substitutions/',
+    'check-if-word-is-valid-after-substitutions',
     'https://www.acwing.com/activity/content/problem/content/5750/',
   ],
   [
-    '/problems/max-consecutive-ones-iii/',
+    'max-consecutive-ones-iii',
     'https://www.acwing.com/activity/content/problem/content/5751/',
   ],
   [
-    '/problems/maximize-sum-of-array-after-k-negations/',
+    'maximize-sum-of-array-after-k-negations',
     'https://www.acwing.com/activity/content/problem/content/5752/',
   ],
   [
-    '/problems/clumsy-factorial/',
+    'clumsy-factorial',
     'https://www.acwing.com/activity/content/problem/content/5753/',
   ],
   [
-    '/problems/minimum-domino-rotations-for-equal-row/',
+    'minimum-domino-rotations-for-equal-row',
     'https://www.acwing.com/activity/content/problem/content/5754/',
   ],
   [
-    '/problems/construct-binary-search-tree-from-preorder-traversal/',
+    'construct-binary-search-tree-from-preorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/5755/',
   ],
   [
-    '/problems/complement-of-base-10-integer/',
+    'complement-of-base-10-integer',
     'https://www.acwing.com/activity/content/problem/content/5756/',
   ],
   [
-    '/problems/pairs-of-songs-with-total-durations-divisible-by-60/',
+    'pairs-of-songs-with-total-durations-divisible-by-60',
     'https://www.acwing.com/activity/content/problem/content/5757/',
   ],
   [
-    '/problems/capacity-to-ship-packages-within-d-days/',
+    'capacity-to-ship-packages-within-d-days',
     'https://www.acwing.com/activity/content/problem/content/5778/',
   ],
   [
-    '/problems/numbers-with-repeated-digits/',
+    'numbers-with-repeated-digits',
     'https://www.acwing.com/activity/content/problem/content/5779/',
   ],
   [
-    '/problems/partition-array-into-three-parts-with-equal-sum/',
+    'partition-array-into-three-parts-with-equal-sum',
     'https://www.acwing.com/activity/content/problem/content/5788/',
   ],
   [
-    '/problems/best-sightseeing-pair/',
+    'best-sightseeing-pair',
     'https://www.acwing.com/activity/content/problem/content/5789/',
   ],
   [
-    '/problems/smallest-integer-divisible-by-k/',
+    'smallest-integer-divisible-by-k',
     'https://www.acwing.com/activity/content/problem/content/5790/',
   ],
   [
-    '/problems/binary-string-with-substrings-representing-1-to-n/',
+    'binary-string-with-substrings-representing-1-to-n',
     'https://www.acwing.com/activity/content/problem/content/5791/',
   ],
   [
-    '/problems/convert-to-base-2/',
+    'convert-to-base-2',
     'https://www.acwing.com/activity/content/problem/content/5792/',
   ],
   [
-    '/problems/binary-prefix-divisible-by-5/',
+    'binary-prefix-divisible-by-5',
     'https://www.acwing.com/activity/content/problem/content/5793/',
   ],
   [
-    '/problems/next-greater-node-in-linked-list/',
+    'next-greater-node-in-linked-list',
     'https://www.acwing.com/activity/content/problem/content/5794/',
   ],
   [
-    '/problems/number-of-enclaves/',
+    'number-of-enclaves',
     'https://www.acwing.com/activity/content/problem/content/5795/',
   ],
   [
-    '/problems/remove-outermost-parentheses/',
+    'remove-outermost-parentheses',
     'https://www.acwing.com/activity/content/problem/content/5796/',
   ],
   [
-    '/problems/sum-of-root-to-leaf-binary-numbers/',
+    'sum-of-root-to-leaf-binary-numbers',
     'https://www.acwing.com/activity/content/problem/content/5797/',
   ],
   [
-    '/problems/camelcase-matching/',
+    'camelcase-matching',
     'https://www.acwing.com/activity/content/problem/content/5807/',
   ],
   [
-    '/problems/video-stitching/',
+    'video-stitching',
     'https://www.acwing.com/activity/content/problem/content/5808/',
   ],
   [
-    '/problems/divisor-game/',
+    'divisor-game',
     'https://www.acwing.com/activity/content/problem/content/5809/',
   ],
   [
-    '/problems/maximum-difference-between-node-and-ancestor/',
+    'maximum-difference-between-node-and-ancestor',
     'https://www.acwing.com/activity/content/problem/content/5810/',
   ],
   [
-    '/problems/longest-arithmetic-subsequence/',
+    'longest-arithmetic-subsequence',
     'https://www.acwing.com/activity/content/problem/content/5811/',
   ],
   [
-    '/problems/recover-a-tree-from-preorder-traversal/',
+    'recover-a-tree-from-preorder-traversal',
     'https://www.acwing.com/activity/content/problem/content/5812/',
   ],
   [
-    '/problems/two-city-scheduling/',
+    'two-city-scheduling',
     'https://www.acwing.com/activity/content/problem/content/5813/',
   ],
   [
-    '/problems/matrix-cells-in-distance-order/',
+    'matrix-cells-in-distance-order',
     'https://www.acwing.com/activity/content/problem/content/5814/',
   ],
   [
-    '/problems/maximum-sum-of-two-non-overlapping-subarrays/',
+    'maximum-sum-of-two-non-overlapping-subarrays',
     'https://www.acwing.com/activity/content/problem/content/5815/',
   ],
   [
-    '/problems/stream-of-characters/',
+    'stream-of-characters',
     'https://www.acwing.com/activity/content/problem/content/5816/',
   ],
   [
-    '/problems/moving-stones-until-consecutive/',
+    'moving-stones-until-consecutive',
     'https://www.acwing.com/activity/content/problem/content/5834/',
   ],
   [
-    '/problems/coloring-a-border/',
+    'coloring-a-border',
     'https://www.acwing.com/activity/content/problem/content/5835/',
   ],
   [
-    '/problems/uncrossed-lines/',
+    'uncrossed-lines',
     'https://www.acwing.com/activity/content/problem/content/5836/',
   ],
   [
-    '/problems/escape-a-large-maze/',
+    'escape-a-large-maze',
     'https://www.acwing.com/activity/content/problem/content/5837/',
   ],
   [
-    '/problems/valid-boomerang/',
+    'valid-boomerang',
     'https://www.acwing.com/activity/content/problem/content/5838/',
   ],
   [
-    '/problems/binary-search-tree-to-greater-sum-tree/',
+    'binary-search-tree-to-greater-sum-tree',
     'https://www.acwing.com/activity/content/problem/content/5839/',
   ],
   [
-    '/problems/minimum-score-triangulation-of-polygon/',
+    'minimum-score-triangulation-of-polygon',
     'https://www.acwing.com/activity/content/problem/content/5840/',
   ],
   [
-    '/problems/moving-stones-until-consecutive-ii/',
+    'moving-stones-until-consecutive-ii',
     'https://www.acwing.com/activity/content/problem/content/5841/',
   ],
   [
-    '/problems/robot-bounded-in-circle/',
+    'robot-bounded-in-circle',
     'https://www.acwing.com/activity/content/problem/content/5842/',
   ],
   [
-    '/problems/flower-planting-with-no-adjacent/',
+    'flower-planting-with-no-adjacent',
     'https://www.acwing.com/activity/content/problem/content/5843/',
   ],
   [
-    '/problems/partition-array-for-maximum-sum/',
+    'partition-array-for-maximum-sum',
     'https://www.acwing.com/activity/content/problem/content/5865/',
   ],
   [
-    '/problems/longest-duplicate-substring/',
+    'longest-duplicate-substring',
     'https://www.acwing.com/activity/content/problem/content/5866/',
   ],
   [
-    '/problems/last-stone-weight/',
+    'last-stone-weight',
     'https://www.acwing.com/activity/content/problem/content/5867/',
   ],
   [
-    '/problems/remove-all-adjacent-duplicates-in-string/',
+    'remove-all-adjacent-duplicates-in-string',
     'https://www.acwing.com/activity/content/problem/content/5868/',
   ],
   [
-    '/problems/longest-string-chain/',
+    'longest-string-chain',
     'https://www.acwing.com/activity/content/problem/content/5869/',
   ],
   [
-    '/problems/last-stone-weight-ii/',
+    'last-stone-weight-ii',
     'https://www.acwing.com/activity/content/problem/content/5870/',
   ],
   [
-    '/problems/height-checker/',
+    'height-checker',
     'https://www.acwing.com/activity/content/problem/content/5871/',
   ],
   [
-    '/problems/grumpy-bookstore-owner/',
+    'grumpy-bookstore-owner',
     'https://www.acwing.com/activity/content/problem/content/5872/',
   ],
   [
-    '/problems/previous-permutation-with-one-swap/',
+    'previous-permutation-with-one-swap',
     'https://www.acwing.com/activity/content/problem/content/5873/',
   ],
   [
-    '/problems/distant-barcodes/',
+    'distant-barcodes',
     'https://www.acwing.com/activity/content/problem/content/5874/',
   ],
   [
-    '/problems/greatest-common-divisor-of-strings/',
+    'greatest-common-divisor-of-strings',
     'https://www.acwing.com/activity/content/problem/content/5883/',
   ],
   [
-    '/problems/flip-columns-for-maximum-number-of-equal-rows/',
+    'flip-columns-for-maximum-number-of-equal-rows',
     'https://www.acwing.com/activity/content/problem/content/5884/',
   ],
   [
-    '/problems/adding-two-negabinary-numbers/',
+    'adding-two-negabinary-numbers',
     'https://www.acwing.com/activity/content/problem/content/5885/',
   ],
   [
-    '/problems/number-of-submatrices-that-sum-to-target/',
+    'number-of-submatrices-that-sum-to-target',
     'https://www.acwing.com/activity/content/problem/content/5886/',
   ],
   [
-    '/problems/occurrences-after-bigram/',
+    'occurrences-after-bigram',
     'https://www.acwing.com/activity/content/problem/content/5887/',
   ],
   [
-    '/problems/letter-tile-possibilities/',
+    'letter-tile-possibilities',
     'https://www.acwing.com/activity/content/problem/content/5888/',
   ],
   [
-    '/problems/insufficient-nodes-in-root-to-leaf-paths/',
+    'insufficient-nodes-in-root-to-leaf-paths',
     'https://www.acwing.com/activity/content/problem/content/5889/',
   ],
   [
-    '/problems/smallest-subsequence-of-distinct-characters/',
+    'smallest-subsequence-of-distinct-characters',
     'https://www.acwing.com/activity/content/problem/content/5890/',
   ],
   [
-    '/problems/duplicate-zeros/',
+    'duplicate-zeros',
     'https://www.acwing.com/activity/content/problem/content/5891/',
   ],
   [
-    '/problems/largest-values-from-labels/',
+    'largest-values-from-labels',
     'https://www.acwing.com/activity/content/problem/content/5892/',
   ],
   [
-    '/problems/shortest-path-in-binary-matrix/',
+    'shortest-path-in-binary-matrix',
     'https://www.acwing.com/activity/content/problem/content/5906/',
   ],
   [
-    '/problems/shortest-common-supersequence/',
+    'shortest-common-supersequence',
     'https://www.acwing.com/activity/content/problem/content/5907/',
   ],
   [
-    '/problems/statistics-from-a-large-sample/',
+    'statistics-from-a-large-sample',
     'https://www.acwing.com/activity/content/problem/content/5908/',
   ],
   [
-    '/problems/car-pooling/',
+    'car-pooling',
     'https://www.acwing.com/activity/content/problem/content/5909/',
   ],
   [
-    '/problems/find-in-mountain-array/',
+    'find-in-mountain-array',
     'https://www.acwing.com/activity/content/problem/content/5910/',
   ],
   [
-    '/problems/brace-expansion-ii/',
+    'brace-expansion-ii',
     'https://www.acwing.com/activity/content/problem/content/5911/',
   ],
   [
-    '/problems/distribute-candies-to-people/',
+    'distribute-candies-to-people',
     'https://www.acwing.com/activity/content/problem/content/5912/',
   ],
   [
-    '/problems/path-in-zigzag-labelled-binary-tree/',
+    'path-in-zigzag-labelled-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/5913/',
   ],
   [
-    '/problems/filling-bookcase-shelves/',
+    'filling-bookcase-shelves',
     'https://www.acwing.com/activity/content/problem/content/5914/',
   ],
   [
-    '/problems/parsing-a-boolean-expression/',
+    'parsing-a-boolean-expression',
     'https://www.acwing.com/activity/content/problem/content/5915/',
   ],
   [
-    '/problems/defanging-an-ip-address/',
+    'defanging-an-ip-address',
     'https://www.acwing.com/activity/content/problem/content/5928/',
   ],
   [
-    '/problems/corporate-flight-bookings/',
+    'corporate-flight-bookings',
     'https://www.acwing.com/activity/content/problem/content/5929/',
   ],
   [
-    '/problems/delete-nodes-and-return-forest/',
+    'delete-nodes-and-return-forest',
     'https://www.acwing.com/activity/content/problem/content/5930/',
   ],
   [
-    '/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/',
+    'maximum-nesting-depth-of-two-valid-parentheses-strings',
     'https://www.acwing.com/activity/content/problem/content/5931/',
   ],
   [
-    '/problems/relative-sort-array/',
+    'relative-sort-array',
     'https://www.acwing.com/activity/content/problem/content/5932/',
   ],
   [
-    '/problems/lowest-common-ancestor-of-deepest-leaves/',
+    'lowest-common-ancestor-of-deepest-leaves',
     'https://www.acwing.com/activity/content/problem/content/5933/',
   ],
   [
-    '/problems/longest-well-performing-interval/',
+    'longest-well-performing-interval',
     'https://www.acwing.com/activity/content/problem/content/5934/',
   ],
   [
-    '/problems/smallest-sufficient-team/',
+    'smallest-sufficient-team',
     'https://www.acwing.com/activity/content/problem/content/5935/',
   ],
   [
-    '/problems/number-of-equivalent-domino-pairs/',
+    'number-of-equivalent-domino-pairs',
     'https://www.acwing.com/activity/content/problem/content/5936/',
   ],
   [
-    '/problems/shortest-path-with-alternating-colors/',
+    'shortest-path-with-alternating-colors',
     'https://www.acwing.com/activity/content/problem/content/5937/',
   ],
   [
-    '/problems/minimum-cost-tree-from-leaf-values/',
+    'minimum-cost-tree-from-leaf-values',
     'https://www.acwing.com/activity/content/problem/content/6960/',
   ],
   [
-    '/problems/maximum-of-absolute-value-expression/',
+    'maximum-of-absolute-value-expression',
     'https://www.acwing.com/activity/content/problem/content/6961/',
   ],
   [
-    '/problems/n-th-tribonacci-number/',
+    'n-th-tribonacci-number',
     'https://www.acwing.com/activity/content/problem/content/6962/',
   ],
   [
-    '/problems/alphabet-board-path/',
+    'alphabet-board-path',
     'https://www.acwing.com/activity/content/problem/content/6963/',
   ],
   [
-    '/problems/largest-1-bordered-square/',
+    'largest-1-bordered-square',
     'https://www.acwing.com/activity/content/problem/content/6964/',
   ],
   [
-    '/problems/stone-game-ii/',
+    'stone-game-ii',
     'https://www.acwing.com/activity/content/problem/content/6965/',
   ],
   [
-    '/problems/longest-common-subsequence/',
+    'longest-common-subsequence',
     'https://www.acwing.com/activity/content/problem/content/6966/',
   ],
   [
-    '/problems/decrease-elements-to-make-array-zigzag/',
+    'decrease-elements-to-make-array-zigzag',
     'https://www.acwing.com/activity/content/problem/content/6967/',
   ],
   [
-    '/problems/binary-tree-coloring-game/',
+    'binary-tree-coloring-game',
     'https://www.acwing.com/activity/content/problem/content/6968/',
   ],
   [
-    '/problems/snapshot-array/',
+    'snapshot-array',
     'https://www.acwing.com/activity/content/problem/content/6969/',
   ],
   [
-    '/problems/longest-chunked-palindrome-decomposition/',
+    'longest-chunked-palindrome-decomposition',
     'https://www.acwing.com/activity/content/problem/content/6970/',
   ],
   [
-    '/problems/day-of-the-year/',
+    'day-of-the-year',
     'https://www.acwing.com/activity/content/problem/content/6984/',
   ],
   [
-    '/problems/number-of-dice-rolls-with-target-sum/',
+    'number-of-dice-rolls-with-target-sum',
     'https://www.acwing.com/activity/content/problem/content/6985/',
   ],
   [
-    '/problems/swap-for-longest-repeated-character-substring/',
+    'swap-for-longest-repeated-character-substring',
     'https://www.acwing.com/activity/content/problem/content/6986/',
   ],
   [
-    '/problems/online-majority-element-in-subarray/',
+    'online-majority-element-in-subarray',
     'https://www.acwing.com/activity/content/problem/content/6987/',
   ],
   [
-    '/problems/find-words-that-can-be-formed-by-characters/',
+    'find-words-that-can-be-formed-by-characters',
     'https://www.acwing.com/activity/content/problem/content/6988/',
   ],
   [
-    '/problems/maximum-level-sum-of-a-binary-tree/',
+    'maximum-level-sum-of-a-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/6989/',
   ],
   [
-    '/problems/as-far-from-land-as-possible/',
+    'as-far-from-land-as-possible',
     'https://www.acwing.com/activity/content/problem/content/6990/',
   ],
   [
-    '/problems/last-substring-in-lexicographical-order/',
+    'last-substring-in-lexicographical-order',
     'https://www.acwing.com/activity/content/problem/content/6991/',
   ],
   [
-    '/problems/invalid-transactions/',
+    'invalid-transactions',
     'https://www.acwing.com/activity/content/problem/content/6992/',
   ],
   [
-    '/problems/compare-strings-by-frequency-of-the-smallest-character/',
+    'compare-strings-by-frequency-of-the-smallest-character',
     'https://www.acwing.com/activity/content/problem/content/6993/',
   ],
   [
-    '/problems/remove-zero-sum-consecutive-nodes-from-linked-list/',
+    'remove-zero-sum-consecutive-nodes-from-linked-list',
     'https://www.acwing.com/activity/content/problem/content/6994/',
   ],
   [
-    '/problems/dinner-plate-stacks/',
+    'dinner-plate-stacks',
     'https://www.acwing.com/activity/content/problem/content/6995/',
   ],
   [
-    '/problems/prime-arrangements/',
+    'prime-arrangements',
     'https://www.acwing.com/activity/content/problem/content/6996/',
   ],
   [
-    '/problems/can-make-palindrome-from-substring/',
+    'can-make-palindrome-from-substring',
     'https://www.acwing.com/activity/content/problem/content/6997/',
   ],
   [
-    '/problems/number-of-valid-words-for-each-puzzle/',
+    'number-of-valid-words-for-each-puzzle',
     'https://www.acwing.com/activity/content/problem/content/6998/',
   ],
   [
-    '/problems/distance-between-bus-stops/',
+    'distance-between-bus-stops',
     'https://www.acwing.com/activity/content/problem/content/6999/',
   ],
   [
-    '/problems/day-of-the-week/',
+    'day-of-the-week',
     'https://www.acwing.com/activity/content/problem/content/7000/',
   ],
   [
-    '/problems/maximum-subarray-sum-with-one-deletion/',
+    'maximum-subarray-sum-with-one-deletion',
     'https://www.acwing.com/activity/content/problem/content/7001/',
   ],
   [
-    '/problems/make-array-strictly-increasing/',
+    'make-array-strictly-increasing',
     'https://www.acwing.com/activity/content/problem/content/7002/',
   ],
   [
-    '/problems/maximum-number-of-balloons/',
+    'maximum-number-of-balloons',
     'https://www.acwing.com/activity/content/problem/content/7003/',
   ],
   [
-    '/problems/reverse-substrings-between-each-pair-of-parentheses/',
+    'reverse-substrings-between-each-pair-of-parentheses',
     'https://www.acwing.com/activity/content/problem/content/7019/',
   ],
   [
-    '/problems/k-concatenation-maximum-sum/',
+    'k-concatenation-maximum-sum',
     'https://www.acwing.com/activity/content/problem/content/7020/',
   ],
   [
-    '/problems/critical-connections-in-a-network/',
+    'critical-connections-in-a-network',
     'https://www.acwing.com/activity/content/problem/content/7021/',
   ],
   [
-    '/problems/minimum-absolute-difference/',
+    'minimum-absolute-difference',
     'https://www.acwing.com/activity/content/problem/content/7022/',
   ],
   [
-    '/problems/ugly-number-iii/',
+    'ugly-number-iii',
     'https://www.acwing.com/activity/content/problem/content/7023/',
   ],
   [
-    '/problems/smallest-string-with-swaps/',
+    'smallest-string-with-swaps',
     'https://www.acwing.com/activity/content/problem/content/7024/',
   ],
   [
-    '/problems/sort-items-by-groups-respecting-dependencies/',
+    'sort-items-by-groups-respecting-dependencies',
     'https://www.acwing.com/activity/content/problem/content/7025/',
   ],
   [
-    '/problems/design-skiplist/',
+    'design-skiplist',
     'https://www.acwing.com/activity/content/problem/content/7026/',
   ],
   [
-    '/problems/unique-number-of-occurrences/',
+    'unique-number-of-occurrences',
     'https://www.acwing.com/activity/content/problem/content/7027/',
   ],
   [
-    '/problems/get-equal-substrings-within-budget/',
+    'get-equal-substrings-within-budget',
     'https://www.acwing.com/activity/content/problem/content/7028/',
   ],
   [
-    '/problems/remove-all-adjacent-duplicates-in-string-ii/',
+    'remove-all-adjacent-duplicates-in-string-ii',
     'https://www.acwing.com/activity/content/problem/content/7053/',
   ],
   [
-    '/problems/minimum-moves-to-reach-target-with-rotations/',
+    'minimum-moves-to-reach-target-with-rotations',
     'https://www.acwing.com/activity/content/problem/content/7054/',
   ],
   [
-    '/problems/minimum-cost-to-move-chips-to-the-same-position/',
+    'minimum-cost-to-move-chips-to-the-same-position',
     'https://www.acwing.com/activity/content/problem/content/7055/',
   ],
   [
-    '/problems/longest-arithmetic-subsequence-of-given-difference/',
+    'longest-arithmetic-subsequence-of-given-difference',
     'https://www.acwing.com/activity/content/problem/content/7056/',
   ],
   [
-    '/problems/path-with-maximum-gold/',
+    'path-with-maximum-gold',
     'https://www.acwing.com/activity/content/problem/content/7057/',
   ],
   [
-    '/problems/count-vowels-permutation/',
+    'count-vowels-permutation',
     'https://www.acwing.com/activity/content/problem/content/7058/',
   ],
   [
-    '/problems/split-a-string-in-balanced-strings/',
+    'split-a-string-in-balanced-strings',
     'https://www.acwing.com/activity/content/problem/content/7059/',
   ],
   [
-    '/problems/queens-that-can-attack-the-king/',
+    'queens-that-can-attack-the-king',
     'https://www.acwing.com/activity/content/problem/content/7060/',
   ],
   [
-    '/problems/dice-roll-simulation/',
+    'dice-roll-simulation',
     'https://www.acwing.com/activity/content/problem/content/7061/',
   ],
   [
-    '/problems/maximum-equal-frequency/',
+    'maximum-equal-frequency',
     'https://www.acwing.com/activity/content/problem/content/7062/',
   ],
   [
-    '/problems/airplane-seat-assignment-probability/',
+    'airplane-seat-assignment-probability',
     'https://www.acwing.com/activity/content/problem/content/7074/',
   ],
   [
-    '/problems/check-if-it-is-a-straight-line/',
+    'check-if-it-is-a-straight-line',
     'https://www.acwing.com/activity/content/problem/content/7075/',
   ],
   [
-    '/problems/remove-sub-folders-from-the-filesystem/',
+    'remove-sub-folders-from-the-filesystem',
     'https://www.acwing.com/activity/content/problem/content/7076/',
   ],
   [
-    '/problems/replace-the-substring-for-balanced-string/',
+    'replace-the-substring-for-balanced-string',
     'https://www.acwing.com/activity/content/problem/content/7077/',
   ],
   [
-    '/problems/maximum-profit-in-job-scheduling/',
+    'maximum-profit-in-job-scheduling',
     'https://www.acwing.com/activity/content/problem/content/7078/',
   ],
   [
-    '/problems/find-positive-integer-solution-for-a-given-equation/',
+    'find-positive-integer-solution-for-a-given-equation',
     'https://www.acwing.com/activity/content/problem/content/7079/',
   ],
   [
-    '/problems/circular-permutation-in-binary-representation/',
+    'circular-permutation-in-binary-representation',
     'https://www.acwing.com/activity/content/problem/content/7080/',
   ],
   [
-    '/problems/maximum-length-of-a-concatenated-string-with-unique-characters/',
+    'maximum-length-of-a-concatenated-string-with-unique-characters',
     'https://www.acwing.com/activity/content/problem/content/7081/',
   ],
   [
-    '/problems/tiling-a-rectangle-with-the-fewest-squares/',
+    'tiling-a-rectangle-with-the-fewest-squares',
     'https://www.acwing.com/activity/content/problem/content/7082/',
   ],
   [
-    '/problems/minimum-swaps-to-make-strings-equal/',
+    'minimum-swaps-to-make-strings-equal',
     'https://www.acwing.com/activity/content/problem/content/7083/',
   ],
   [
-    '/problems/count-number-of-nice-subarrays/',
+    'count-number-of-nice-subarrays',
     'https://www.acwing.com/activity/content/problem/content/7100/',
   ],
   [
-    '/problems/minimum-remove-to-make-valid-parentheses/',
+    'minimum-remove-to-make-valid-parentheses',
     'https://www.acwing.com/activity/content/problem/content/7101/',
   ],
   [
-    '/problems/check-if-it-is-a-good-array/',
+    'check-if-it-is-a-good-array',
     'https://www.acwing.com/activity/content/problem/content/7102/',
   ],
   [
-    '/problems/cells-with-odd-values-in-a-matrix/',
+    'cells-with-odd-values-in-a-matrix',
     'https://www.acwing.com/activity/content/problem/content/7103/',
   ],
   [
-    '/problems/reconstruct-a-2-row-binary-matrix/',
+    'reconstruct-a-2-row-binary-matrix',
     'https://www.acwing.com/activity/content/problem/content/7104/',
   ],
   [
-    '/problems/number-of-closed-islands/',
+    'number-of-closed-islands',
     'https://www.acwing.com/activity/content/problem/content/7105/',
   ],
   [
-    '/problems/maximum-score-words-formed-by-letters/',
+    'maximum-score-words-formed-by-letters',
     'https://www.acwing.com/activity/content/problem/content/7106/',
   ],
   [
-    '/problems/shift-2d-grid/',
+    'shift-2d-grid',
     'https://www.acwing.com/activity/content/problem/content/7107/',
   ],
   [
-    '/problems/find-elements-in-a-contaminated-binary-tree/',
+    'find-elements-in-a-contaminated-binary-tree',
     'https://www.acwing.com/activity/content/problem/content/7108/',
   ],
   [
-    '/problems/greatest-sum-divisible-by-three/',
+    'greatest-sum-divisible-by-three',
     'https://www.acwing.com/activity/content/problem/content/7109/',
   ],
   [
-    '/problems/minimum-moves-to-move-a-box-to-their-target-location/',
+    'minimum-moves-to-move-a-box-to-their-target-location',
     'https://www.acwing.com/activity/content/problem/content/7163/',
   ],
   [
-    '/problems/minimum-time-visiting-all-points/',
+    'minimum-time-visiting-all-points',
     'https://www.acwing.com/activity/content/problem/content/7164/',
   ],
   [
-    '/problems/count-servers-that-communicate/',
+    'count-servers-that-communicate',
     'https://www.acwing.com/activity/content/problem/content/7165/',
   ],
   [
-    '/problems/search-suggestions-system/',
+    'search-suggestions-system',
     'https://www.acwing.com/activity/content/problem/content/7166/',
   ],
   [
-    '/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/',
+    'number-of-ways-to-stay-in-the-same-place-after-some-steps',
     'https://www.acwing.com/activity/content/problem/content/7167/',
   ],
   [
-    '/problems/find-winner-on-a-tic-tac-toe-game/',
+    'find-winner-on-a-tic-tac-toe-game',
     'https://www.acwing.com/activity/content/problem/content/7168/',
   ],
   [
-    '/problems/number-of-burgers-with-no-waste-of-ingredients/',
+    'number-of-burgers-with-no-waste-of-ingredients',
     'https://www.acwing.com/activity/content/problem/content/7169/',
   ],
   [
-    '/problems/count-square-submatrices-with-all-ones/',
+    'count-square-submatrices-with-all-ones',
     'https://www.acwing.com/activity/content/problem/content/7170/',
   ],
   [
-    '/problems/palindrome-partitioning-iii/',
+    'palindrome-partitioning-iii',
     'https://www.acwing.com/activity/content/problem/content/7171/',
   ],
   [
-    '/problems/subtract-the-product-and-sum-of-digits-of-an-integer/',
+    'subtract-the-product-and-sum-of-digits-of-an-integer',
     'https://www.acwing.com/activity/content/problem/content/7172/',
   ],
   [
-    '/problems/group-the-people-given-the-group-size-they-belong-to/',
+    'group-the-people-given-the-group-size-they-belong-to',
     'https://www.acwing.com/activity/content/problem/content/7191/',
   ],
   [
-    '/problems/find-the-smallest-divisor-given-a-threshold/',
+    'find-the-smallest-divisor-given-a-threshold',
     'https://www.acwing.com/activity/content/problem/content/7192/',
   ],
   [
-    '/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/',
+    'minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix',
     'https://www.acwing.com/activity/content/problem/content/7193/',
   ],
   [
-    '/problems/iterator-for-combination/',
+    'iterator-for-combination',
     'https://www.acwing.com/activity/content/problem/content/7194/',
   ],
   [
-    '/problems/element-appearing-more-than-25-in-sorted-array/',
+    'element-appearing-more-than-25-in-sorted-array',
     'https://www.acwing.com/activity/content/problem/content/7195/',
   ],
   [
-    '/problems/remove-covered-intervals/',
+    'remove-covered-intervals',
     'https://www.acwing.com/activity/content/problem/content/7196/',
   ],
   [
-    '/problems/minimum-falling-path-sum-ii/',
+    'minimum-falling-path-sum-ii',
     'https://www.acwing.com/activity/content/problem/content/7197/',
   ],
   [
-    '/problems/convert-binary-number-in-a-linked-list-to-integer/',
+    'convert-binary-number-in-a-linked-list-to-integer',
     'https://www.acwing.com/activity/content/problem/content/7198/',
   ],
   [
-    '/problems/sequential-digits/',
+    'sequential-digits',
     'https://www.acwing.com/activity/content/problem/content/7199/',
   ],
   [
-    '/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/',
+    'maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold',
     'https://www.acwing.com/activity/content/problem/content/7200/',
   ],
 ]);
