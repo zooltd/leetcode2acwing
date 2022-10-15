@@ -19,32 +19,41 @@ const waitForRender = (...selectors: string[]) =>
 (async () => {
   try {
     const [parentBar] = await waitForRender('div[class*="TabHeaderContainer"]');
-    const newTab = <Element>parentBar?.lastChild?.cloneNode(true);
-    newTab?.setAttribute('data-key', 'AcWing');
-    newTab?.setAttribute('data-cy', 'AcWing');
-    (<SVGElement>(
-      newTab?.firstChild?.firstChild?.firstChild?.firstChild?.firstChild
-    ))?.remove();
-    const isUsSite = window.location.hostname === 'leetcode.com';
-    isUsSite
-      ? ((<HTMLSpanElement>(
-          newTab?.firstChild?.firstChild?.firstChild?.firstChild?.lastChild
-        ))!.innerText = 'AcWing')
-      : ((<HTMLDivElement>(
-          newTab?.firstChild?.firstChild?.firstChild?.firstChild
-        ))!.innerText = 'AcWing');
+    if (parentBar === null) throw new Error('cannot find tabs');
+    if (parentBar.firstChild == null) throw new Error('cannot find last tab');
+
+    const newTab = <HTMLDivElement>parentBar.firstChild.cloneNode(true);
+    const subdomain = window.location.pathname.split('/')[3];
+
+    if (subdomain === '' || subdomain === undefined) {
+      if (parentBar.lastChild !== null)
+        newTab.className = (<HTMLDivElement>parentBar.lastChild).className;
+    }
+
+    newTab.setAttribute('data-key', 'AcWing');
+    newTab.setAttribute('data-cy', 'AcWing');
+
+    newTab.querySelector('svg')?.remove();
+
+    const spanElements = newTab.querySelectorAll('span');
+    const titleSpan = spanElements[spanElements.length - 1];
+    if (titleSpan === undefined) throw new Error('cannot change tab title');
+    titleSpan.innerText = 'AcWing';
+
     const titleSlug = window.location.pathname.split('/')[2];
     const url = title2URL.get(titleSlug);
+
+    const anchor = newTab.querySelector('a');
+    if (anchor === null) throw new Error('cannot find anchor');
+
     if (url) {
-      (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute('href', url);
-      (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute('target', '_blank');
+      anchor.setAttribute('href', url);
+      anchor.setAttribute('target', '_blank');
     } else {
-      (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute('href', '#');
-      (<HTMLAnchorElement>newTab?.firstChild)?.setAttribute(
-        'onclick',
-        "alert('Not found in AcWing')"
-      );
+      anchor.setAttribute('href', '#');
+      anchor.setAttribute('onclick', "alert('Not found in AcWing')");
     }
+
     parentBar?.appendChild(newTab);
   } catch (error) {
     console.error(error, 'script leetcode2acwing did not load.');
